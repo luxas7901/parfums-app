@@ -120,6 +120,11 @@
   .field .inline { display: flex; align-items: center; gap: 10px; }
   .field .inline input[type="color"] { width: 48px; height: 40px; padding: 2px; border: 1px solid var(--glass-border); border-radius: 10px; background: rgba(26,19,48,0.55); cursor: pointer; }
 
+  .settings-card { padding: 24px; margin-bottom: 28px; }
+  .settings-card h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.25rem; color: var(--gold); margin-bottom: 6px; }
+  .settings-sub { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
+  .settings-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+
   .form-actions { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
   .btn-primary {
     border: none; border-radius: 12px; padding: 12px 20px; font-weight: 600; font-size: 0.94rem;
@@ -203,6 +208,33 @@
   <p class="page-sub">Gestioná el catálogo: agregá, editá o eliminá perfumes. Los cambios se guardan en este navegador y la tienda los refleja al instante.</p>
 
   <div id="notice" hidden></div>
+
+  <section class="settings-card glass">
+    <h2>Configuración de la tienda</h2>
+    <p class="settings-sub">Estos textos se usan en la tienda para armar el pedido de WhatsApp.</p>
+    <div class="settings-grid">
+      <div class="field">
+        <label for="s-whatsapp">Número de WhatsApp</label>
+        <input type="text" id="s-whatsapp" placeholder="5491131797343">
+        <div class="hint">País + área + número, sin "+" ni espacios.</div>
+      </div>
+      <div class="field">
+        <label for="s-greeting">Saludo del mensaje</label>
+        <input type="text" id="s-greeting">
+      </div>
+      <div class="field">
+        <label for="s-header">Encabezado del detalle</label>
+        <input type="text" id="s-header">
+      </div>
+      <div class="field">
+        <label for="s-footer">Texto de cierre</label>
+        <input type="text" id="s-footer">
+      </div>
+    </div>
+    <div class="form-actions">
+      <button class="btn-primary" type="button" id="btn-save-settings">Guardar ajustes</button>
+    </div>
+  </section>
 
   <div class="admin-grid">
 
@@ -329,7 +361,16 @@ const STORAGE_KEY = 'aluxab_products';
 const FAMILIES = ['Amaderado', 'Floral', 'Oriental', 'Fresco', 'Cítrico'];
 const BADGES = ['Más Vendido', 'Nuevo', 'Edición Limitada', 'Oud Intenso', 'Clásico'];
 
+// Default store texts; overridable from the settings card (exported in products.json).
+const DEFAULT_SETTINGS = {
+  whatsappNumber: '5491131797343',
+  greeting: '¡Hola Al Luxab Parfums! 👋 Quiero hacer el siguiente pedido:',
+  headerDetail: '🛍️ *Detalle de la compra:*',
+  footerText: 'Quedo a la espera para coordinar el pago y la entrega. ¡Muchas gracias!'
+};
+
 let catalog = [];
+let settings = Object.assign({}, DEFAULT_SETTINGS);
 let editingId = null; // null = creating a new product
 let imageData = null; // Base64 data URL (local upload) or external URL or null
 
@@ -369,7 +410,7 @@ function hideNotice() {
 
 function saveCatalog() {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(catalog));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ settings: settings, products: catalog }));
   } catch (e) {
     showNotice('No se pudieron guardar los cambios en este navegador (espacio o permisos). Descargá el archivo y subilo al repositorio.', 'error');
     return false;
@@ -380,14 +421,52 @@ function saveCatalog() {
 /* ============================================================
  * Carga de datos
  * ============================================================ */
+function normalizeData(data) {
+  if (Array.isArray(data)) return { products: data, settings: null };
+  if (data && typeof data === 'object' && Array.isArray(data.products)) {
+    return { products: data.products, settings: data.settings || null };
+  }
+  return null;
+}
+
+function fillSettingsForm() {
+  document.getElementById('s-whatsapp').value = settings.whatsappNumber || '';
+  document.getElementById('s-greeting').value = settings.greeting || '';
+  document.getElementById('s-header').value = settings.headerDetail || '';
+  document.getElementById('s-footer').value = settings.footerText || '';
+}
+
+function collectSettings() {
+  var num = document.getElementById('s-whatsapp').value.trim();
+  if (!num) {
+    showNotice('El número de WhatsApp es obligatorio para recibir pedidos.', 'error');
+    return null;
+  }
+  settings = {
+    whatsappNumber: num,
+    greeting: document.getElementById('s-greeting').value.trim(),
+    headerDetail: document.getElementById('s-header').value.trim(),
+    footerText: document.getElementById('s-footer').value.trim()
+  };
+  return settings;
+}
+
+function handleSaveSettings() {
+  if (!collectSettings()) return;
+  saveCatalog();
+  toast('Ajustes guardados ✓', 'success');
+}
+
 function loadCatalog() {
   // 1) localStorage primero
   try {
     var raw = localStorage.getItem(STORAGE_KEY);
     if (raw) {
       var parsed = JSON.parse(raw);
-      if (Array.isArray(parsed)) {
-        catalog = parsed;
+      var norm = normalizeData(parsed);
+      if (norm) {
+        catalog = norm.products;
+        if (norm.settings) settings = Object.assign({}, DEFAULT_SETTINGS, norm.settings);
         init();
         return;
       }
@@ -401,8 +480,10 @@ function loadCatalog() {
       return res.json();
     })
     .then(function (data) {
-      if (!Array.isArray(data)) throw new Error('no es un array');
-      catalog = data;
+      var norm = normalizeData(data);
+      if (!norm) throw new Error('catálogo inválido');
+      catalog = norm.products;
+      if (norm.settings) settings = Object.assign({}, DEFAULT_SETTINGS, norm.settings);
       init();
     })
     .catch(function () {
@@ -754,16 +835,19 @@ function handleImport(e) {
   reader.onload = function () {
     try {
       var data = JSON.parse(reader.result);
-      if (!Array.isArray(data)) throw new Error('no array');
+      var norm = normalizeData(data);
+      if (!norm) throw new Error('catálogo inválido');
       if (catalog.length && !confirm('¿Reemplazar el catálogo actual (' + catalog.length + ' productos) por el archivo cargado?')) {
         e.target.value = '';
         return;
       }
-      catalog = data;
+      catalog = norm.products;
+      if (norm.settings) settings = Object.assign({}, DEFAULT_SETTINGS, norm.settings);
       saveCatalog();
       renderList();
+      fillSettingsForm();
       resetForm();
-      showNotice('Catálogo reemplazado con ' + data.length + ' productos desde el archivo.', 'success');
+      showNotice('Catálogo reemplazado con ' + norm.products.length + ' productos' + (norm.settings ? ' y ajustes importados.' : ' desde el archivo.'), 'success');
     } catch (err) {
       showNotice('El archivo no es un JSON válido con un array de productos.', 'error');
     }
@@ -773,7 +857,7 @@ function handleImport(e) {
 }
 
 function handleDownload() {
-  var blob = new Blob([JSON.stringify(catalog, null, 2)], { type: 'application/json' });
+  var blob = new Blob([JSON.stringify({ settings: settings, products: catalog }, null, 2)], { type: 'application/json' });
   var url = URL.createObjectURL(blob);
   var a = document.createElement('a');
   a.href = url;
@@ -791,9 +875,11 @@ function handleDownload() {
 function init() {
   fillFamilySelect();
   fillBadgeSelect();
+  fillSettingsForm();
 
   document.getElementById('btn-save').addEventListener('click', handleSave);
   document.getElementById('btn-cancel').addEventListener('click', resetForm);
+  document.getElementById('btn-save-settings').addEventListener('click', handleSaveSettings);
 
   document.getElementById('f-image').addEventListener('change', function () {
     var file = this.files && this.files[0];

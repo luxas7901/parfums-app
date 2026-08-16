@@ -470,10 +470,19 @@ const STORAGE_KEY = 'aluxab_products';
 // Cart persistence key.
 const CART_KEY = 'aluxab_cart';
 
+// Default store texts (overridable from admin.html settings, saved in products.json).
+const DEFAULT_SETTINGS = {
+  whatsappNumber: WHATSAPP_NUMBER,
+  greeting: '¡Hola Al Luxab Parfums! 👋 Quiero hacer el siguiente pedido:',
+  headerDetail: '🛍️ *Detalle de la compra:*',
+  footerText: 'Quedo a la espera para coordinar el pago y la entrega. ¡Muchas gracias!'
+};
+
 /* ============================================================
  * Estado global
  * ============================================================ */
 let catalog = [];
+let settings = null;
 let cart = [];
 let payMethod = 'efectivo';
 let selectedPresentation = {}; // product id -> 'full' | 'decant' (per-card toggle)
@@ -518,6 +527,18 @@ function esc(s) {
 /* ============================================================
  * Carga de datos (robusta)
  * ============================================================ */
+function normalizeData(data) {
+  if (Array.isArray(data)) return { products: data, settings: null };
+  if (data && typeof data === 'object' && Array.isArray(data.products)) {
+    return { products: data.products, settings: data.settings || null };
+  }
+  return null;
+}
+
+function applySettings(s) {
+  settings = Object.assign({}, DEFAULT_SETTINGS, s || {});
+}
+
 function loadCatalog() {
   var banner = document.getElementById('error-banner');
 
@@ -526,8 +547,10 @@ function loadCatalog() {
     var raw = localStorage.getItem(STORAGE_KEY);
     if (raw) {
       var parsed = JSON.parse(raw);
-      if (Array.isArray(parsed) && parsed.length) {
-        catalog = parsed;
+      var norm = normalizeData(parsed);
+      if (norm && norm.products.length) {
+        catalog = norm.products;
+        applySettings(norm.settings);
         init();
         return;
       }
@@ -541,12 +564,15 @@ function loadCatalog() {
       return res.json();
     })
     .then(function (data) {
-      if (!Array.isArray(data)) throw new Error('products.json no es un array');
-      catalog = data;
+      var norm = normalizeData(data);
+      if (!norm) throw new Error('products.json no es un catálogo válido');
+      catalog = norm.products;
+      applySettings(norm.settings);
       init();
     })
     .catch(function () {
       catalog = [];
+      applySettings(null);
       banner.hidden = false;
       banner.textContent = 'No se pudo cargar el catálogo. Abrí el proyecto con un servidor local (p. ej. Live Server o `python -m http.server`) o subí products.json desde el panel de administración.';
       init();
@@ -1234,21 +1260,22 @@ function buildMessage() {
   }
 
   return [
-    '¡Hola Al Luxab Parfums! 👋 Quiero confirmar el siguiente pedido:',
+    settings.greeting,
     '',
-    '🛍️ *Detalle de la compra:*',
+    settings.headerDetail,
     lines.join('\n'),
     '',
     '💳 *Forma de Pago seleccionada:* ' + PAY_LABELS[payMethod],
     '🏷️ *Total Estimado:* ' + fmtARS(t.total) + ' ' + desglose,
     '',
-    'Quedo a la espera para coordinar el pago y la entrega. ¡Muchas gracias!'
+    settings.footerText
   ].join('\n');
 }
 
 function sendWhatsApp() {
   var msg = buildMessage();
-  var url = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(msg);
+  var number = (settings && settings.whatsappNumber) || WHATSAPP_NUMBER;
+  var url = 'https://wa.me/' + number + '?text=' + encodeURIComponent(msg);
   window.open(url, '_blank', 'noopener');
 }
 
@@ -1308,8 +1335,9 @@ function init() {
     if (e.key === 'Escape') closeCart();
   });
 
-  // Keep the header "Contacto" link in sync with WHATSAPP_NUMBER (single source of truth).
-  document.getElementById('contact-link').setAttribute('href', 'https://wa.me/' + WHATSAPP_NUMBER);
+  // Keep the header "Contacto" link in sync with the configured number (single source of truth).
+  var number = (settings && settings.whatsappNumber) || WHATSAPP_NUMBER;
+  document.getElementById('contact-link').setAttribute('href', 'https://wa.me/' + number);
 
   loadCart();
   updateCounts();
