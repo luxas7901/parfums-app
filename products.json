@@ -1,0 +1,170 @@
+[
+  {
+    "id": "lattafa-khamrah",
+    "brand": "Lattafa",
+    "name": "Khamrah",
+    "badge": "Más Vendido",
+    "tagline": "Ámbar dulce, canela y dátiles en un abrazo cálido.",
+    "price": 52000,
+    "decantPrice": 5800,
+    "family": "Oriental",
+    "liquid": "#e0a63a",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-khamrah/600/600",
+    "notes": {
+      "salida": ["Canela", "Nuez moscada", "Bergamota"],
+      "corazon": ["Dátil", "Praliné", "Jazmín"],
+      "fondo": ["Vainilla", "Tonka", "Oud"]
+    }
+  },
+  {
+    "id": "armaf-club-de-nuit-intense-man",
+    "brand": "Armaf",
+    "name": "Club de Nuit Intense Man",
+    "badge": null,
+    "tagline": "Elegancia cítrica con un fondo ahumado y magnético.",
+    "price": 58000,
+    "decantPrice": 6400,
+    "family": "Cítrico",
+    "liquid": "#c9a86a",
+    "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-intense-man/600/600",
+    "notes": {
+      "salida": ["Limón", "Bergamota", "Piña"],
+      "corazon": ["Abedul", "Jazmín", "Rosa"],
+      "fondo": ["Almizcle", "Vainilla", "Ámbar"]
+    }
+  },
+  {
+    "id": "lattafa-oud-mood",
+    "brand": "Lattafa",
+    "name": "Oud Mood",
+    "badge": "Oud Intenso",
+    "tagline": "Oud profundo y especiado para noches que no se olvidan.",
+    "price": 62000,
+    "decantPrice": 6900,
+    "family": "Oriental",
+    "liquid": "#5a2d20",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-oud-mood/600/600",
+    "notes": {
+      "salida": ["Oud", "Azafrán"],
+      "corazon": ["Rosa", "Ámbar"],
+      "fondo": ["Oud", "Almizcle", "Pachulí"]
+    }
+  },
+  {
+    "id": "rasasi-la-yuqawam",
+    "brand": "Rasasi",
+    "name": "La Yuqawam",
+    "badge": "Clásico",
+    "tagline": "Cuero, frambuesa y azafrán: una firma impecable.",
+    "price": 89000,
+    "decantPrice": 9800,
+    "family": "Amaderado",
+    "liquid": "#8b5a2b",
+    "image": "https://picsum.photos/seed/aluxab-rasasi-la-yuqawam/600/600",
+    "notes": {
+      "salida": ["Frambuesa", "Azafrán"],
+      "corazon": ["Cuero", "Violeta", "Jazmín"],
+      "fondo": ["Ámbar", "Abedul", "Suede"]
+    }
+  },
+  {
+    "id": "al-haramain-laventure",
+    "brand": "Al Haramain",
+    "name": "L'Aventure",
+    "badge": null,
+    "tagline": "Frescura cítrica con un toque leñoso y limpio.",
+    "price": 46000,
+    "decantPrice": 5100,
+    "family": "Fresco",
+    "liquid": "#a8c5a0",
+    "image": "https://picsum.photos/seed/aluxab-al-haramain-laventure/600/600",
+    "notes": {
+      "salida": ["Bergamota", "Limón", "Manzana"],
+      "corazon": ["Jazmín", "Ananá", "Abedul"],
+      "fondo": ["Almizcle", "Ámbar", "Cedro"]
+    }
+  },
+  {
+    "id": "lattafa-yara",
+    "brand": "Lattafa",
+    "name": "Yara",
+    "badge": "Nuevo",
+    "tagline": "Orquídea, vainilla y un aura femenina y suave.",
+    "price": 42000,
+    "decantPrice": 4600,
+    "family": "Floral",
+    "liquid": "#d98a9e",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-yara/600/600",
+    "notes": {
+      "salida": ["Orquídea", "Cardamomo"],
+      "corazon": ["Jazmín", "Tuberosa"],
+      "fondo": ["Vainilla", "Sándalo", "Almizcle"]
+    }
+  },
+  {
+    "id": "ajmal-amber-wood",
+    "brand": "Ajmal",
+    "name": "Amber Wood",
+    "badge": null,
+    "tagline": "Ámbar cálido sobre maderas nobles y especias.",
+    "price": 68000,
+    "family": "Oriental",
+    "liquid": "#c9893a",
+    "image": "https://picsum.photos/seed/aluxab-ajmal-amber-wood/600/600",
+    "notes": {
+      "salida": ["Azafrán", "Canela"],
+      "corazon": ["Ámbar", "Oud"],
+      "fondo": ["Vainilla", "Almizcle", "Cedro"]
+    }
+  },
+  {
+    "id": "swiss-arabian-shaghaf-oud",
+    "brand": "Swiss Arabian",
+    "name": "Shaghaf Oud",
+    "badge": "Nuevo",
+    "tagline": "Rosa y oud en equilibrio perfecto, intenso y seductor.",
+    "price": 59000,
+    "decantPrice": 6500,
+    "family": "Amaderado",
+    "liquid": "#7a3b2e",
+    "image": "https://picsum.photos/seed/aluxab-swiss-arabian-shaghaf-oud/600/600",
+    "notes": {
+      "salida": ["Oud", "Azafrán"],
+      "corazon": ["Rosa", "Ámbar"],
+      "fondo": ["Oud", "Vainilla", "Almizcle"]
+    }
+  },
+  {
+    "id": "al-rehab-choco-musk",
+    "brand": "Al Rehab",
+    "name": "Choco Musk",
+    "badge": null,
+    "tagline": "Chocolate y almizcle: dulzura adictiva y cotidiana.",
+    "price": 35000,
+    "family": "Amaderado",
+    "liquid": "#6b3a2a",
+    "image": "https://picsum.photos/seed/aluxab-al-rehab-choco-musk/600/600",
+    "notes": {
+      "salida": ["Chocolate", "Coco"],
+      "corazon": ["Chocolate", "Caramelo"],
+      "fondo": ["Almizcle", "Vainilla"]
+    }
+  },
+  {
+    "id": "rasasi-hawas",
+    "brand": "Rasasi",
+    "name": "Hawas",
+    "badge": "Edición Limitada",
+    "tagline": "Marino, fresco y vibrante con un corazón especiado.",
+    "price": 78000,
+    "decantPrice": 8600,
+    "family": "Fresco",
+    "liquid": "#5c8fb0",
+    "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+    "notes": {
+      "salida": ["Manzana verde", "Limón", "Bergamota"],
+      "corazon": ["Canela", "Cardamomo", "Jazmín"],
+      "fondo": ["Ámbar", "Almizcle", "Cedro"]
+    }
+  }
+]

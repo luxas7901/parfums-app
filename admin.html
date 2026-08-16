@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al Luxab Parfums — Panel de administración</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #1a1330;
+    --bg-soft: #241b42;
+    --gold: #e0a63a;
+    --dune: #d9622e;
+    --cream: #f7ecd6;
+    --muted: rgba(247,236,214,0.62);
+    --glass-bg: rgba(255,255,255,0.06);
+    --glass-border: rgba(247,236,214,0.14);
+    --danger: #e05d5d;
+    --success: #4caf7d;
+    --whatsapp: #25d366;
+    --radius: 18px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Work Sans', system-ui, sans-serif;
+    background: #1a1330;
+    color: var(--cream);
+    min-height: 100vh;
+    line-height: 1.55;
+    background:
+      radial-gradient(ellipse 90% 55% at 50% -8%, rgba(224,166,58,0.16), transparent 60%),
+      radial-gradient(ellipse 55% 45% at 12% 108%, rgba(217,98,46,0.13), transparent 60%),
+      radial-gradient(ellipse 55% 45% at 88% 110%, rgba(224,166,58,0.10), transparent 60%),
+      linear-gradient(160deg, #1a1330 0%, #171022 45%, #140d1e 100%);
+    background-attachment: fixed;
+  }
+
+  ::selection { background: rgba(224,166,58,0.35); }
+
+  button, select, input { font-family: inherit; }
+
+  img { display: block; max-width: 100%; }
+
+  a { color: var(--gold); }
+
+  :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+  .glass {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  }
+
+  .container { width: min(1180px, 92%); margin: 0 auto; }
+
+  /* ===== Header ===== */
+  header.site-header {
+    position: sticky; top: 0; z-index: 60;
+    background: rgba(26,19,48,0.72);
+    border-bottom: 1px solid var(--glass-border);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .header-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 16px; padding: 14px 0; flex-wrap: wrap;
+  }
+  .brand { display: flex; align-items: baseline; gap: 8px; text-decoration: none; }
+  .brand-wordmark {
+    font-family: 'Fraunces', serif; font-weight: 700; font-size: 1.3rem;
+    letter-spacing: 0.04em; color: var(--gold);
+  }
+  .brand-sub {
+    font-family: 'Fraunces', serif; font-weight: 500; font-size: 0.74rem;
+    letter-spacing: 0.32em; color: var(--muted); text-transform: uppercase;
+  }
+  .header-links { display: flex; align-items: center; gap: 18px; }
+  .header-links a { color: var(--cream); text-decoration: none; font-weight: 500; font-size: 0.92rem; transition: color 0.2s; }
+  .header-links a:hover { color: var(--gold); }
+
+  /* ===== Layout ===== */
+  main { padding: 36px 0 60px; }
+  .page-title { font-family: 'Fraunces', serif; font-weight: 700; font-size: clamp(1.7rem, 4vw, 2.4rem); margin-bottom: 8px; }
+  .page-sub { color: var(--muted); font-size: 0.95rem; margin-bottom: 28px; max-width: 720px; }
+
+  .notice {
+    border: 1px solid rgba(224,166,58,0.45); background: rgba(224,166,58,0.1);
+    color: #f0d9a8; padding: 13px 16px; border-radius: 12px; margin-bottom: 24px; font-size: 0.92rem;
+  }
+  .notice.error { border-color: rgba(224,93,93,0.5); background: rgba(224,93,93,0.12); color: #f3b9b9; }
+  .notice.success { border-color: var(--success); background: rgba(76,175,125,0.12); color: #bfe8d2; }
+
+  .admin-grid { display: grid; grid-template-columns: 1fr; gap: 28px; }
+  @media (min-width: 980px) {
+    .admin-grid { grid-template-columns: minmax(340px, 420px) 1fr; align-items: start; }
+  }
+
+  /* ===== Form ===== */
+  .form-card { padding: 24px; position: sticky; top: 84px; }
+  .form-card h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.25rem; color: var(--gold); margin-bottom: 18px; }
+  .field { margin-bottom: 14px; }
+  .field label { display: block; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .field input[type="text"], .field input[type="number"], .field input[type="url"], .field select, .field textarea {
+    width: 100%; padding: 10px 12px; border-radius: 10px;
+    background: rgba(26,19,48,0.55); border: 1px solid var(--glass-border);
+    color: var(--cream); font-size: 0.92rem; transition: border-color 0.2s;
+  }
+  .field input:focus, .field select:focus, .field textarea:focus { border-color: var(--gold); outline: none; }
+  .field select option { background: var(--bg-soft); color: var(--cream); }
+  .field .hint { color: var(--muted); font-size: 0.78rem; margin-top: 4px; }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .field .inline { display: flex; align-items: center; gap: 10px; }
+  .field .inline input[type="color"] { width: 48px; height: 40px; padding: 2px; border: 1px solid var(--glass-border); border-radius: 10px; background: rgba(26,19,48,0.55); cursor: pointer; }
+
+  .form-actions { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+  .btn-primary {
+    border: none; border-radius: 12px; padding: 12px 20px; font-weight: 600; font-size: 0.94rem;
+    background: linear-gradient(135deg, var(--gold), var(--dune)); color: #20130a; cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.2s;
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(224,166,58,0.35); }
+  .btn-secondary {
+    border: 1px solid var(--glass-border); border-radius: 12px; padding: 12px 18px;
+    background: transparent; color: var(--cream); font-weight: 500; font-size: 0.92rem; cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .btn-secondary:hover { border-color: var(--gold); color: var(--gold); }
+
+  .image-upload { border: 1px dashed var(--glass-border); border-radius: 12px; padding: 14px; text-align: center; }
+  .image-upload input[type="file"] { display: block; margin: 0 auto 10px; font-size: 0.85rem; color: var(--muted); }
+  .preview { width: 110px; height: 110px; border-radius: 14px; overflow: hidden; margin: 0 auto 12px; border: 1px solid var(--glass-border); }
+  .preview img { width: 100%; height: 100%; object-fit: cover; }
+  .preview .placeholder { width: 100%; height: 100%; }
+
+  /* ===== Toolbar ===== */
+  .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; margin-bottom: 18px; }
+  .toolbar h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.3rem; color: var(--gold); }
+  .toolbar .actions { display: flex; gap: 10px; flex-wrap: wrap; }
+
+  /* ===== List ===== */
+  .list { display: flex; flex-direction: column; gap: 12px; }
+  .list-empty { color: var(--muted); text-align: center; padding: 40px 20px; }
+  .row-item {
+    display: flex; align-items: center; gap: 14px; padding: 14px 16px;
+    transition: transform 0.2s, border-color 0.2s; flex-wrap: wrap;
+  }
+  .row-item:hover { border-color: rgba(224,166,58,0.45); }
+  .row-thumb { width: 58px; height: 58px; border-radius: 12px; overflow: hidden; flex-shrink: 0; border: 1px solid var(--glass-border); }
+  .row-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .row-thumb .placeholder { width: 100%; height: 100%; }
+  .row-info { flex: 1; min-width: 200px; }
+  .row-brand { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); }
+  .row-name { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.02rem; }
+  .row-badges { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
+  .mini-chip {
+    font-size: 0.68rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 999px;
+    background: linear-gradient(135deg, var(--gold), var(--dune)); color: #20130a;
+  }
+  .mini-chip.plain { background: rgba(247,236,214,0.1); color: var(--cream); border: 1px solid var(--glass-border); }
+  .row-price { color: var(--gold); font-weight: 600; font-size: 0.92rem; text-align: right; white-space: nowrap; }
+  .row-price .small { color: var(--muted); font-weight: 400; font-size: 0.8rem; display: block; }
+  .row-actions { display: flex; gap: 8px; }
+  .row-actions button { white-space: nowrap; }
+
+  /* ===== Toast ===== */
+  .toast {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(20px);
+    background: var(--bg-soft); color: var(--cream); border: 1px solid var(--glass-border);
+    padding: 12px 20px; border-radius: 12px; font-size: 0.9rem; z-index: 200;
+    opacity: 0; pointer-events: none; transition: opacity 0.3s, transform 0.3s; box-shadow: 0 14px 34px rgba(0,0,0,0.45);
+    max-width: 88vw; text-align: center;
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+  .toast.success { border-color: var(--success); }
+  .toast.error { border-color: var(--danger); }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-wordmark">AL LUXAB</span>
+      <span class="brand-sub">ADMIN</span>
+    </a>
+    <div class="header-links">
+      <a href="index.html">← Volver a la tienda</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <h1 class="page-title">Panel de administración</h1>
+  <p class="page-sub">Gestioná el catálogo: agregá, editá o eliminá perfumes. Los cambios se guardan en este navegador y la tienda los refleja al instante.</p>
+
+  <div id="notice" hidden></div>
+
+  <div class="admin-grid">
+
+    <!-- ===== Form ===== -->
+    <section class="form-card glass">
+      <h2 id="form-title">Nuevo producto</h2>
+
+      <div class="field">
+        <label for="f-id">ID (slug)</label>
+        <input type="text" id="f-id" placeholder="se genera solo con marca + nombre">
+        <div class="hint">Dejalo vacío para autogenerarlo. Debe ser único.</div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="f-brand">Marca *</label>
+          <input type="text" id="f-brand" required>
+        </div>
+        <div class="field">
+          <label for="f-name">Nombre *</label>
+          <input type="text" id="f-name" required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="f-tagline">Descripción corta</label>
+        <input type="text" id="f-tagline">
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="f-price">Precio frasco 100ml (ARS) *</label>
+          <input type="number" id="f-price" min="0" step="1" required>
+        </div>
+        <div class="field">
+          <label for="f-decant">Precio decant 10ml (ARS)</label>
+          <input type="number" id="f-decant" min="0" step="1" placeholder="opcional">
+          <div class="hint">Si se deja vacío, no se ofrece el decant.</div>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="f-family">Familia olfativa</label>
+          <select id="f-family"></select>
+        </div>
+        <div class="field">
+          <label for="f-liquid">Color del líquido</label>
+          <div class="inline">
+            <input type="color" id="f-liquid" value="#e0a63a">
+            <span class="hint" id="liquid-hex">#e0a63a</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="f-badge">Etiqueta</label>
+        <select id="f-badge"></select>
+        <div class="field" id="custom-badge-wrap" hidden style="margin-top:10px;">
+          <label for="f-badge-custom">Etiqueta personalizada</label>
+          <input type="text" id="f-badge-custom" placeholder="Ej: Solo online">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="f-notes-salida">Notas de salida</label>
+        <input type="text" id="f-notes-salida" placeholder="Canela, Nuez moscada, Bergamota">
+      </div>
+      <div class="field">
+        <label for="f-notes-corazon">Notas de corazón</label>
+        <input type="text" id="f-notes-corazon" placeholder="Dátil, Praliné, Jazmín">
+      </div>
+      <div class="field">
+        <label for="f-notes-fondo">Notas de fondo</label>
+        <input type="text" id="f-notes-fondo" placeholder="Vainilla, Tonka, Oud">
+      </div>
+
+      <div class="field">
+        <label>Imagen</label>
+        <div class="image-upload">
+          <div class="preview" id="image-preview"></div>
+          <input type="file" id="f-image" accept="image/*">
+          <div class="hint">Subí una imagen local (se convierte a Base64) o usá una URL.</div>
+          <input type="url" id="f-image-url" placeholder="Pegar URL de imagen externa" style="margin-top:10px;">
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button class="btn-primary" type="button" id="btn-save">Guardar producto</button>
+        <button class="btn-secondary" type="button" id="btn-cancel" hidden>Cancelar edición</button>
+      </div>
+    </section>
+
+    <!-- ===== List ===== -->
+    <section>
+      <div class="toolbar">
+        <h2>Catálogo (<span id="count-label">0</span>)</h2>
+        <div class="actions">
+          <button class="btn-secondary" type="button" id="btn-import">Cargar products.json</button>
+          <input type="file" id="import-file" accept=".json,application/json" hidden>
+          <button class="btn-secondary" type="button" id="btn-download">Descargar products.json</button>
+        </div>
+      </div>
+      <div class="notice" id="download-note">
+        Descargá el archivo y subilo a tu repositorio para actualizar el catálogo público.
+      </div>
+      <div class="list" id="product-list"></div>
+    </section>
+
+  </div>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ============================================================
+ * AL LUXAB PARFUMS — panel de administración
+ * Comparte localStorage[STORAGE_KEY] con index.html.
+ * ============================================================ */
+
+// localStorage key shared with the store (must match index.html).
+const STORAGE_KEY = 'aluxab_products';
+
+const FAMILIES = ['Amaderado', 'Floral', 'Oriental', 'Fresco', 'Cítrico'];
+const BADGES = ['Más Vendido', 'Nuevo', 'Edición Limitada', 'Oud Intenso', 'Clásico'];
+
+let catalog = [];
+let editingId = null; // null = creating a new product
+let imageData = null; // Base64 data URL (local upload) or external URL or null
+
+/* ============================================================
+ * Utilidades
+ * ============================================================ */
+function fmtARS(n) {
+  return new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS', maximumFractionDigits: 0 }).format(n);
+}
+
+function slugify(str) {
+  return String(str)
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function toast(msg, type) {
+  var el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = 'toast show ' + (type || '');
+  clearTimeout(toast._t);
+  toast._t = setTimeout(function () { el.className = 'toast'; }, 2600);
+}
+
+function showNotice(msg, type) {
+  var el = document.getElementById('notice');
+  el.textContent = msg;
+  el.className = 'notice ' + (type || '');
+  el.hidden = false;
+}
+
+function hideNotice() {
+  document.getElementById('notice').hidden = true;
+}
+
+function saveCatalog() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(catalog));
+  } catch (e) {
+    showNotice('No se pudieron guardar los cambios en este navegador (espacio o permisos). Descargá el archivo y subilo al repositorio.', 'error');
+    return false;
+  }
+  return true;
+}
+
+/* ============================================================
+ * Carga de datos
+ * ============================================================ */
+function loadCatalog() {
+  // 1) localStorage primero
+  try {
+    var raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) {
+      var parsed = JSON.parse(raw);
+      if (Array.isArray(parsed)) {
+        catalog = parsed;
+        init();
+        return;
+      }
+    }
+  } catch (e) { /* fall through */ }
+
+  // 2) fetch products.json
+  fetch('products.json')
+    .then(function (res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(function (data) {
+      if (!Array.isArray(data)) throw new Error('no es un array');
+      catalog = data;
+      init();
+    })
+    .catch(function () {
+      catalog = [];
+      init();
+      showNotice('No se pudo cargar products.json automáticamente (probablemente abriste el archivo con file://). Usá un servidor local (Live Server o `python -m http.server`) o cargá el archivo manualmente con "Cargar products.json".', 'error');
+    });
+}
+
+/* ============================================================
+ * Formulario
+ * ============================================================ */
+function parseNotes(str) {
+  return String(str).split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+}
+
+function fillFamilySelect() {
+  var sel = document.getElementById('f-family');
+  sel.textContent = '';
+  FAMILIES.forEach(function (f) {
+    var opt = document.createElement('option');
+    opt.value = f;
+    opt.textContent = f;
+    sel.appendChild(opt);
+  });
+}
+
+function fillBadgeSelect() {
+  var sel = document.getElementById('f-badge');
+  sel.textContent = '';
+  var none = document.createElement('option');
+  none.value = '';
+  none.textContent = 'Sin etiqueta';
+  sel.appendChild(none);
+  BADGES.forEach(function (b) {
+    var opt = document.createElement('option');
+    opt.value = b;
+    opt.textContent = b;
+    sel.appendChild(opt);
+  });
+  var custom = document.createElement('option');
+  custom.value = '__custom__';
+  custom.textContent = 'Personalizada…';
+  sel.appendChild(custom);
+}
+
+function getBadgeValue() {
+  var sel = document.getElementById('f-badge');
+  if (sel.value === '') return null;
+  if (sel.value === '__custom__') {
+    var custom = document.getElementById('f-badge-custom').value.trim();
+    return custom || null;
+  }
+  return sel.value;
+}
+
+function resetForm() {
+  editingId = null;
+  imageData = null;
+  document.getElementById('form-title').textContent = 'Nuevo producto';
+  document.getElementById('btn-cancel').hidden = true;
+  document.getElementById('f-id').value = '';
+  document.getElementById('f-brand').value = '';
+  document.getElementById('f-name').value = '';
+  document.getElementById('f-tagline').value = '';
+  document.getElementById('f-price').value = '';
+  document.getElementById('f-decant').value = '';
+  document.getElementById('f-family').value = FAMILIES[0];
+  document.getElementById('f-liquid').value = '#e0a63a';
+  updateLiquidHex();
+  document.getElementById('f-badge').value = '';
+  document.getElementById('f-badge-custom').value = '';
+  document.getElementById('custom-badge-wrap').hidden = true;
+  document.getElementById('f-notes-salida').value = '';
+  document.getElementById('f-notes-corazon').value = '';
+  document.getElementById('f-notes-fondo').value = '';
+  document.getElementById('f-image').value = '';
+  document.getElementById('f-image-url').value = '';
+  renderImagePreview();
+  hideNotice();
+}
+
+function fillForm(p) {
+  editingId = p.id;
+  imageData = p.image || null;
+  document.getElementById('form-title').textContent = 'Editando: ' + p.name;
+  document.getElementById('btn-cancel').hidden = false;
+  document.getElementById('f-id').value = p.id;
+  document.getElementById('f-brand').value = p.brand || '';
+  document.getElementById('f-name').value = p.name || '';
+  document.getElementById('f-tagline').value = p.tagline || '';
+  document.getElementById('f-price').value = p.price != null ? p.price : '';
+  document.getElementById('f-decant').value = p.decantPrice != null ? p.decantPrice : '';
+  document.getElementById('f-family').value = FAMILIES.indexOf(p.family) !== -1 ? p.family : FAMILIES[0];
+  document.getElementById('f-liquid').value = p.liquid || '#e0a63a';
+  updateLiquidHex();
+
+  var badgeSel = document.getElementById('f-badge');
+  var customWrap = document.getElementById('custom-badge-wrap');
+  var customInput = document.getElementById('f-badge-custom');
+  if (p.badge && BADGES.indexOf(p.badge) !== -1) {
+    badgeSel.value = p.badge;
+    customWrap.hidden = true;
+    customInput.value = '';
+  } else if (p.badge) {
+    badgeSel.value = '__custom__';
+    customWrap.hidden = false;
+    customInput.value = p.badge;
+  } else {
+    badgeSel.value = '';
+    customWrap.hidden = true;
+    customInput.value = '';
+  }
+
+  var notes = p.notes || {};
+  document.getElementById('f-notes-salida').value = (notes.salida || []).join(', ');
+  document.getElementById('f-notes-corazon').value = (notes.corazon || []).join(', ');
+  document.getElementById('f-notes-fondo').value = (notes.fondo || []).join(', ');
+  document.getElementById('f-image').value = '';
+  document.getElementById('f-image-url').value = '';
+  renderImagePreview();
+  hideNotice();
+}
+
+function collectForm() {
+  var id = document.getElementById('f-id').value.trim();
+  var brand = document.getElementById('f-brand').value.trim();
+  var name = document.getElementById('f-name').value.trim();
+  var price = parseFloat(document.getElementById('f-price').value);
+  var decantRaw = document.getElementById('f-decant').value.trim();
+  var decant = decantRaw === '' ? undefined : parseFloat(decantRaw);
+
+  var errors = [];
+  if (!brand) errors.push('La marca es obligatoria.');
+  if (!name) errors.push('El nombre es obligatorio.');
+  if (isNaN(price) || price < 0) errors.push('El precio del frasco debe ser un número válido.');
+  if (decant !== undefined && (isNaN(decant) || decant < 0)) errors.push('El precio del decant debe ser un número válido.');
+
+  if (!id) id = slugify(brand + '-' + name);
+  if (!id) errors.push('No se pudo generar un ID. Completá marca y nombre.');
+
+  var duplicate = catalog.some(function (p) { return p.id === id && p.id !== editingId; });
+  if (duplicate) errors.push('Ya existe un producto con el ID "' + id + '". Cambialo o editá el existente.');
+
+  if (errors.length) {
+    showNotice(errors.join(' '), 'error');
+    return null;
+  }
+
+  return {
+    id: id,
+    brand: brand,
+    name: name,
+    badge: getBadgeValue(),
+    tagline: document.getElementById('f-tagline').value.trim(),
+    price: price,
+    decantPrice: decant,
+    family: document.getElementById('f-family').value,
+    liquid: document.getElementById('f-liquid').value,
+    image: imageData,
+    notes: {
+      salida: parseNotes(document.getElementById('f-notes-salida').value),
+      corazon: parseNotes(document.getElementById('f-notes-corazon').value),
+      fondo: parseNotes(document.getElementById('f-notes-fondo').value)
+    }
+  };
+}
+
+function handleSave() {
+  var product = collectForm();
+  if (!product) return;
+
+  if (editingId) {
+    var idx = catalog.findIndex(function (p) { return p.id === editingId; });
+    if (idx !== -1) {
+      catalog[idx] = product;
+      toast('Producto actualizado ✓', 'success');
+    } else {
+      catalog.push(product);
+      toast('Producto guardado ✓', 'success');
+    }
+  } else {
+    catalog.push(product);
+    toast('Producto guardado ✓', 'success');
+  }
+
+  saveCatalog();
+  renderList();
+  resetForm();
+}
+
+/* ============================================================
+ * Imagen (Base64 local o URL externa)
+ * ============================================================ */
+function updateLiquidHex() {
+  document.getElementById('liquid-hex').textContent = document.getElementById('f-liquid').value;
+}
+
+function renderImagePreview() {
+  var box = document.getElementById('image-preview');
+  box.textContent = '';
+  var liquid = document.getElementById('f-liquid').value || '#e0a63a';
+
+  if (imageData) {
+    var img = document.createElement('img');
+    img.src = imageData;
+    img.alt = 'Vista previa de la imagen del producto';
+    box.appendChild(img);
+  } else {
+    var ph = document.createElement('div');
+    ph.className = 'placeholder';
+    ph.style.background = 'radial-gradient(circle at 30% 25%, ' + liquid + '66, ' + liquid + '33 55%, rgba(26,19,48,0.5) 100%)';
+    box.appendChild(ph);
+  }
+}
+
+function clearImageFromUpload() {
+  // When an external URL is pasted, drop the local upload.
+  document.getElementById('f-image').value = '';
+}
+
+/* ============================================================
+ * Lista de productos
+ * ============================================================ */
+function renderList() {
+  var list = document.getElementById('product-list');
+  list.textContent = '';
+  document.getElementById('count-label').textContent = catalog.length;
+
+  if (!catalog.length) {
+    var empty = document.createElement('div');
+    empty.className = 'list-empty glass';
+    empty.textContent = 'El catálogo está vacío. Agregá tu primer producto con el formulario.';
+    list.appendChild(empty);
+    return;
+  }
+
+  catalog.slice().sort(function (a, b) { return a.brand.localeCompare(b.brand, 'es') || a.name.localeCompare(b.name, 'es'); })
+    .forEach(function (p) {
+      list.appendChild(buildRow(p));
+    });
+}
+
+function buildRow(p) {
+  var row = document.createElement('div');
+  row.className = 'row-item glass';
+
+  var thumb = document.createElement('div');
+  thumb.className = 'row-thumb';
+  if (p.image) {
+    var img = document.createElement('img');
+    img.src = p.image;
+    img.alt = p.brand + ' ' + p.name;
+    img.addEventListener('error', function () {
+      img.replaceWith(makePlaceholder(p.liquid));
+    });
+    thumb.appendChild(img);
+  } else {
+    thumb.appendChild(makePlaceholder(p.liquid));
+  }
+  row.appendChild(thumb);
+
+  var info = document.createElement('div');
+  info.className = 'row-info';
+  var br = document.createElement('div');
+  br.className = 'row-brand';
+  br.textContent = p.brand;
+  var nm = document.createElement('div');
+  nm.className = 'row-name';
+  nm.textContent = p.name;
+  info.appendChild(br);
+  info.appendChild(nm);
+
+  var badges = document.createElement('div');
+  badges.className = 'row-badges';
+  if (p.badge) {
+    var chip = document.createElement('span');
+    chip.className = 'mini-chip';
+    chip.textContent = p.badge;
+    badges.appendChild(chip);
+  }
+  var fchip = document.createElement('span');
+  fchip.className = 'mini-chip plain';
+  fchip.textContent = p.family;
+  badges.appendChild(fchip);
+  info.appendChild(badges);
+
+  row.appendChild(info);
+
+  var price = document.createElement('div');
+  price.className = 'row-price';
+  price.textContent = fmtARS(p.price);
+  if (p.decantPrice != null) {
+    var dec = document.createElement('span');
+    dec.className = 'small';
+    dec.textContent = 'Decant: ' + fmtARS(p.decantPrice);
+    price.appendChild(dec);
+  }
+  row.appendChild(price);
+
+  var actions = document.createElement('div');
+  actions.className = 'row-actions';
+
+  var edit = document.createElement('button');
+  edit.type = 'button';
+  edit.className = 'btn-secondary';
+  edit.textContent = 'Editar';
+  edit.addEventListener('click', function () {
+    fillForm(p);
+    document.getElementById('form-card-target') || document.querySelector('.form-card').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  var del = document.createElement('button');
+  del.type = 'button';
+  del.className = 'btn-secondary';
+  del.style.borderColor = 'rgba(224,93,93,0.5)';
+  del.style.color = '#e08a8a';
+  del.textContent = 'Eliminar';
+  del.addEventListener('click', function () {
+    if (confirm('¿Eliminar "' + p.brand + ' ' + p.name + '" del catálogo?')) {
+      catalog = catalog.filter(function (x) { return x.id !== p.id; });
+      saveCatalog();
+      renderList();
+      if (editingId === p.id) resetForm();
+      toast('Producto eliminado', 'success');
+    }
+  });
+
+  actions.appendChild(edit);
+  actions.appendChild(del);
+  row.appendChild(actions);
+  return row;
+}
+
+function makePlaceholder(liquid) {
+  var div = document.createElement('div');
+  div.className = 'placeholder';
+  div.style.background = 'radial-gradient(circle at 30% 25%, ' + (liquid || '#e0a63a') + '66, ' + (liquid || '#e0a63a') + '33 55%, rgba(26,19,48,0.5) 100%)';
+  return div;
+}
+
+/* ============================================================
+ * Importar / descargar
+ * ============================================================ */
+function handleImport(e) {
+  var file = e.target.files && e.target.files[0];
+  if (!file) return;
+  var reader = new FileReader();
+  reader.onload = function () {
+    try {
+      var data = JSON.parse(reader.result);
+      if (!Array.isArray(data)) throw new Error('no array');
+      if (catalog.length && !confirm('¿Reemplazar el catálogo actual (' + catalog.length + ' productos) por el archivo cargado?')) {
+        e.target.value = '';
+        return;
+      }
+      catalog = data;
+      saveCatalog();
+      renderList();
+      resetForm();
+      showNotice('Catálogo reemplazado con ' + data.length + ' productos desde el archivo.', 'success');
+    } catch (err) {
+      showNotice('El archivo no es un JSON válido con un array de productos.', 'error');
+    }
+    e.target.value = '';
+  };
+  reader.readAsText(file);
+}
+
+function handleDownload() {
+  var blob = new Blob([JSON.stringify(catalog, null, 2)], { type: 'application/json' });
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a');
+  a.href = url;
+  a.download = 'products.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+  toast('products.json descargado ✓', 'success');
+}
+
+/* ============================================================
+ * Inicialización
+ * ============================================================ */
+function init() {
+  fillFamilySelect();
+  fillBadgeSelect();
+
+  document.getElementById('btn-save').addEventListener('click', handleSave);
+  document.getElementById('btn-cancel').addEventListener('click', resetForm);
+
+  document.getElementById('f-image').addEventListener('change', function () {
+    var file = this.files && this.files[0];
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function () {
+      imageData = reader.result;
+      document.getElementById('f-image-url').value = '';
+      renderImagePreview();
+    };
+    reader.readAsDataURL(file);
+  });
+
+  document.getElementById('f-image-url').addEventListener('input', function () {
+    var url = this.value.trim();
+    if (url) {
+      imageData = url;
+      clearImageFromUpload();
+      renderImagePreview();
+    } else if (imageData && imageData.indexOf('data:') !== 0) {
+      imageData = null;
+      renderImagePreview();
+    }
+  });
+
+  document.getElementById('f-liquid').addEventListener('input', function () {
+    updateLiquidHex();
+    renderImagePreview();
+  });
+
+  document.getElementById('f-badge').addEventListener('change', function () {
+    document.getElementById('custom-badge-wrap').hidden = this.value !== '__custom__';
+  });
+
+  document.getElementById('f-brand').addEventListener('input', function () {
+    var idEl = document.getElementById('f-id');
+    if (!editingId && !idEl.value.trim()) {
+      var name = document.getElementById('f-name').value.trim();
+      idEl.value = slugify(this.value.trim() + '-' + name);
+    }
+  });
+  document.getElementById('f-name').addEventListener('input', function () {
+    var idEl = document.getElementById('f-id');
+    if (!editingId && !idEl.value.trim()) {
+      var brand = document.getElementById('f-brand').value.trim();
+      idEl.value = slugify(brand + '-' + this.value.trim());
+    }
+  });
+
+  document.getElementById('btn-import').addEventListener('click', function () {
+    document.getElementById('import-file').click();
+  });
+  document.getElementById('import-file').addEventListener('change', handleImport);
+  document.getElementById('btn-download').addEventListener('click', handleDownload);
+
+  renderList();
+  resetForm();
+}
+
+document.addEventListener('DOMContentLoaded', loadCatalog);
+</script>
+</body>
+</html>
