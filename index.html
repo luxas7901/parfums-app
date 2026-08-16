@@ -379,7 +379,7 @@
     </a>
     <nav class="main-nav">
       <a href="#catalogo">Catálogo</a>
-      <a href="https://wa.me/5491100000000" target="_blank" rel="noopener">Contacto</a>
+      <a href="https://wa.me/5491131797343" target="_blank" rel="noopener" id="contact-link">Contacto</a>
       <button class="header-cart" type="button" data-open-cart aria-label="Abrir carrito">
         🛒 <span class="cart-count" data-cart-count>0</span>
       </button>
@@ -462,7 +462,7 @@
  * ============================================================ */
 
 // Owner's WhatsApp number (country + area + number, no "+", no spaces).
-const WHATSAPP_NUMBER = '5491100000000';
+const WHATSAPP_NUMBER = '5491131797343';
 
 // localStorage key shared with admin.html (admin edits flow to the store).
 const STORAGE_KEY = 'aluxab_products';
@@ -1307,6 +1307,9 @@ function init() {
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') closeCart();
   });
+
+  // Keep the header "Contacto" link in sync with WHATSAPP_NUMBER (single source of truth).
+  document.getElementById('contact-link').setAttribute('href', 'https://wa.me/' + WHATSAPP_NUMBER);
 
   loadCart();
   updateCounts();
