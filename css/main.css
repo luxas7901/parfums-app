@@ -1,0 +1,71 @@
+/* ============================================================
+ * css/main.css — shared globals for index.html and admin.html
+ * (design tokens, reset, base elements, .glass, .container and
+ * the toast system used by both pages).
+ * ============================================================ */
+
+:root {
+  --bg: #1a1330;
+  --bg-soft: #241b42;
+  --gold: #e0a63a;
+  --dune: #d9622e;
+  --cream: #f7ecd6;
+  --muted: rgba(247,236,214,0.62);
+  --glass-bg: rgba(255,255,255,0.06);
+  --glass-border: rgba(247,236,214,0.14);
+  --danger: #e05d5d;
+  --success: #4caf7d;
+  --whatsapp: #25d366;
+  --radius: 18px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Work Sans', system-ui, sans-serif;
+  background: #1a1330;
+  color: var(--cream);
+  min-height: 100vh;
+  line-height: 1.55;
+  background:
+    radial-gradient(ellipse 90% 55% at 50% -8%, rgba(224,166,58,0.16), transparent 60%),
+    radial-gradient(ellipse 55% 45% at 12% 108%, rgba(217,98,46,0.13), transparent 60%),
+    radial-gradient(ellipse 55% 45% at 88% 110%, rgba(224,166,58,0.10), transparent 60%),
+    linear-gradient(160deg, #1a1330 0%, #171022 45%, #140d1e 100%);
+  background-attachment: fixed;
+}
+
+::selection { background: rgba(224,166,58,0.35); }
+
+button, select, input { font-family: inherit; }
+
+img { display: block; max-width: 100%; }
+
+a { color: var(--gold); }
+
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+.glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.container { width: min(1180px, 92%); margin: 0 auto; }
+
+/* ===== Toast ===== */
+.toast {
+  position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(20px);
+  background: var(--bg-soft); color: var(--cream); border: 1px solid var(--glass-border);
+  padding: 12px 20px; border-radius: 12px; font-size: 0.9rem; z-index: 200;
+  opacity: 0; pointer-events: none; transition: opacity 0.3s, transform 0.3s; box-shadow: 0 14px 34px rgba(0,0,0,0.45);
+  max-width: 88vw; text-align: center;
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+.toast.success { border-color: var(--success); }
+.toast.error { border-color: var(--danger); }
