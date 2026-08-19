@@ -174,7 +174,7 @@ function buildCard(p) {
     var sel = selectedPresentation[p.id];
     priceMain.textContent = fmtARS(unitPrice(p, sel));
     if (sel === 'full' && p.decantPrice != null) {
-      priceAlt.textContent = 'Decant 10ml: ' + fmtARS(p.decantPrice);
+      priceAlt.textContent = 'Decant 5ml: ' + fmtARS(p.decantPrice);
     } else if (sel === 'decant') {
       priceAlt.textContent = 'Frasco 100ml: ' + fmtARS(p.price);
     } else {
@@ -197,7 +197,7 @@ function buildCard(p) {
   btnFull.textContent = 'Frasco 100ml';
   var btnDecant = document.createElement('button');
   btnDecant.type = 'button';
-  btnDecant.textContent = 'Decant 10ml';
+  btnDecant.textContent = 'Decant 5ml';
 
   var hasDecant = p.decantPrice != null;
   if (!hasDecant) {
