@@ -143,13 +143,14 @@
       }
     },
     {
-      "id": "al-rehab-choco-musk",
-      "brand": "Al Rehab",
-      "name": "Choco Musk",
+      "id": "lattafa-khamrah-dukhan",
+      "brand": "Lattafa",
+      "name": "Khamrah Dukhan",
       "badge": null,
-      "tagline": "Chocolate y almizcle: dulzura adictiva y cotidiana.",
-      "price": 35000,
-      "family": "Amaderado",
+      "tagline": "",
+      "price": 75000,
+      "decantPrice": 9000,
+      "family": "dulce",
       "liquid": "#6b3a2a",
       "image": "https://picsum.photos/seed/aluxab-al-rehab-choco-musk/600/600",
       "notes": {
@@ -159,14 +160,14 @@
       }
     },
     {
-      "id": "rasasi-hawas",
-      "brand": "Rasasi",
-      "name": "Hawas",
-      "badge": "Edición Limitada",
-      "tagline": "Marino, fresco y vibrante con un corazón especiado.",
-      "price": 78000,
-      "decantPrice": 8600,
-      "family": "Fresco",
+      "id": "lattafa-eclaire",
+      "brand": "Lattafa",
+      "name": "Eclaire",
+      "badge": "",
+      "tagline": "femenino",
+      "price": 75000,
+      "decantPrice": 9000,
+      "family": "dulce",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
