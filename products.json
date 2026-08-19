@@ -126,14 +126,14 @@
       }
     },
     {
-      "id": "swiss-arabian-shaghaf-oud",
-      "brand": "Swiss Arabian",
-      "name": "Shaghaf Oud",
-      "badge": "Nuevo",
-      "tagline": "Rosa y oud en equilibrio perfecto, intenso y seductor.",
-      "price": 59000,
-      "decantPrice": 6500,
-      "family": "Amaderado",
+      "id": "lattafa-pisa",
+      "brand": "Lattafa",
+      "name": "Pisa",
+      "badge": "",
+      "tagline": "",
+      "price": 100000,
+      "decantPrice": 9000,
+      "family": "cítrico",
       "liquid": "#7a3b2e",
       "image": "https://picsum.photos/seed/aluxab-swiss-arabian-shaghaf-oud/600/600",
       "notes": {
