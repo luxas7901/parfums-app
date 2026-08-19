@@ -70,7 +70,7 @@ function unitPrice(p, presentation) {
 }
 
 function presentationLabel(presentation) {
-  return presentation === 'decant' ? 'Decant 10ml' : 'Frasco 100ml';
+  return presentation === 'decant' ? 'Decant 5ml' : 'Frasco 100ml';
 }
 
 /* ============================================================
