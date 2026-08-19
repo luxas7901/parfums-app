@@ -7,7 +7,7 @@
   },
   "products": [
     {
-      "id": "lattafa-khamrah",
+      "id": "lattafa-khamrah-qawah",
       "brand": "Lattafa",
       "name": "Khamrah Qawah",
       "badge": "Más Vendido",
@@ -29,9 +29,9 @@
       "name": "Club de Nuit Intense Man",
       "badge": null,
       "tagline": "Elegancia cítrica con un fondo ahumado y magnético.",
-      "price": 58000,
-      "decantPrice": 6400,
-      "family": "Cítrico",
+      "price": 90000,
+      "decantPrice": 9000,
+      "family": "Amaderado especiada",
       "liquid": "#c9a86a",
       "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-intense-man/600/600",
       "notes": {
@@ -41,31 +41,31 @@
       }
     },
     {
-      "id": "lattafa-oud-mood",
+      "id": "lattafa-asad-bourbon",
       "brand": "Lattafa",
-      "name": "Oud Mood",
+      "name": "Asad Bourbon",
       "badge": "Oud Intenso",
       "tagline": "Oud profundo y especiado para noches que no se olvidan.",
-      "price": 62000,
-      "decantPrice": 6900,
-      "family": "Oriental",
+      "price": 95000,
+      "decantPrice": 9000,
+      "family": "dulce especiado",
       "liquid": "#5a2d20",
       "image": "https://picsum.photos/seed/aluxab-lattafa-oud-mood/600/600",
       "notes": {
-        "salida": ["Oud", "Azafrán"],
-        "corazon": ["Rosa", "Ámbar"],
-        "fondo": ["Oud", "Almizcle", "Pachulí"]
+        "salida": ["dulce", "frutal"],
+        "corazon": ["cacao", "nuez moscada"],
+        "fondo": ["vainilla Bourbon", "ambar", "vetiver"]
       }
     },
     {
-      "id": "rasasi-la-yuqawam",
-      "brand": "Rasasi",
-      "name": "La Yuqawam",
-      "badge": "Clásico",
+      "id": "al-haramain-gold-edition",
+      "brand": "Al Haramain",
+      "name": "Gold Edition",
+      "badge": "dulce",
       "tagline": "Cuero, frambuesa y azafrán: una firma impecable.",
-      "price": 89000,
-      "decantPrice": 9800,
-      "family": "Amaderado",
+      "price": 120000,
+      "decantPrice": 9000,
+      "family": "dulce avainillado",
       "liquid": "#8b5a2b",
       "image": "https://picsum.photos/seed/aluxab-rasasi-la-yuqawam/600/600",
       "notes": {
