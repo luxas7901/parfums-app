@@ -121,8 +121,8 @@
       "image": "https://picsum.photos/seed/aluxab-ajmal-amber-wood/600/600",
       "notes": {
         "salida": ["mandarina", "naranja", "azafrán y salvia"],
-        "corazon": ["Caramelo, haba tonka y cempasúchil"],
-        "fondo": ["Ambroxan, cedro y vetiver"]
+        "corazon": ["Caramelo haba tonka y cempasúchil"],
+        "fondo": ["Ambroxan cedro y vetiver"]
       }
     },
     {
@@ -137,7 +137,7 @@
       "liquid": "#7a3b2e",
       "image": "https://picsum.photos/seed/aluxab-swiss-arabian-shaghaf-oud/600/600",
       "notes": {
-        "salida": ["Mandarina, limón y bergamota"],
+        "salida": ["Mandarina limón y bergamota"],
         "corazon": ["Madera de cedro"],
         "fondo": ["Sándalo y ámbar"]
       }
@@ -154,9 +154,9 @@
       "liquid": "#6b3a2a",
       "image": "https://picsum.photos/seed/aluxab-al-rehab-choco-musk/600/600",
       "notes": {
-        "salida": ["Especias, pimiento morrón (pimienta de Jamaica) y mandarina"],
-        "corazon": ["Incienso, ládano, flor de azahar del naranjo y pachulí"],
-        "fondo": ["Tabaco, praliné, ámbar, haba tonka y benjuí"]
+        "salida": ["Especias pimiento morrón (pimienta de Jamaica) y mandarina"],
+        "corazon": ["Incienso ládano flor de azahar del naranjo y pachulí"],
+        "fondo": ["Tabaco praliné ámbar haba tonka y benjuí"]
       }
     },
     {
@@ -171,9 +171,9 @@
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-        "salida": ["Caramelo, leche y azúcar"],
+        "salida": ["Caramelo leche y azúcar"],
         "corazon": ["Miel y flores blancas"],
-        "fondo": ["Vainilla, praliné y almizcle"]
+        "fondo": ["Vainilla praliné y almizcle"]
       },
       {
       "id": "lattafa-narjis",
@@ -203,9 +203,9 @@
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Notas marinas, sal y limón"],
+      "salida": ["Notas marinas sal y limón"],
       "corazon": ["Davana e iris"],
-      "fondo": ["Ámbar gris, musgo de roble y sándalo"]
+      "fondo": ["Ámbar gris musgo de roble y sándalo"]
     },
       {
       "id": "lattafa-radio-vintage",
@@ -219,8 +219,8 @@
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Lavanda, salvia y bergamota"],
-      "corazon": ["Ciruela, palo santo y pimienta negra"],
+      "salida": ["Lavanda salvia y bergamota"],
+      "corazon": ["Ciruela palo santo y pimienta negra"],
       "fondo": ["Sándalo y madera de oud"]
     },
       {
@@ -251,9 +251,9 @@
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Canela, lavanda y mandarina"],
-      "corazon": ["Iris, benjuí, ciprés y Mahonial"],
-      "fondo": ["Vainilla, haba tonka, ámbar, incienso, cedro y pachulí"]
+      "salida": ["Canela lavanda y mandarina"],
+      "corazon": ["Iris benjuí ciprés y Mahonial"],
+      "fondo": ["Vainilla haba tonka,ñ ámbar incienso cedro y pachulí"]
     },
       {
       "id": "lattafa-khanjar",
@@ -267,9 +267,9 @@
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Nuez moscada, pimienta de Jamaica y jengibre"],
-      "corazon": ["Violeta, pachulí y cachemira"],
-      "fondo": ["Cuero, incienso, almizcle y vetiver"]
+      "salida": ["Nuez moscada pimienta de Jamaica y jengibre"],
+      "corazon": ["Violeta pachulí y cachemira"],
+      "fondo": ["Cuero incienso almizcle y vetiver"]
     },
       {
       "id": "lattafa-afaq",
@@ -300,8 +300,8 @@
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
       "salida": ["Limón, bergamota, esclarea y bayas de enebro"],
-      "corazon": ["Té blanco, sándalo, cardamomo e incienso de olíbano"],
-      "fondo": ["Ámbar gris, cedro, cachemira y pachulí"]
+      "corazon": ["Té blanco sándalo cardamomo e incienso de olíbano"],
+      "fondo": ["Ámbar gris cedro cachemira y pachulí"]
     },
       {
       "id": "lattafa-yara-elixir",
@@ -317,7 +317,7 @@
       "notes": {
       "salida": ["S'mores de fresa y grosellas negras"],
       "corazon": ["Jazmín y flor de azahar del naranjo"],
-      "fondo": [" Caramelo, vainilla, ámbar y almizcle"]
+      "fondo": [" Caramelo vainilla ámbar y almizcle"]
     }
   ]
 }
