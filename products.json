@@ -184,7 +184,7 @@
       "tagline": "unisex",
       "price": 75000,
       "decantPrice": 9000,
-      "family": "Cítrico",
+      "family": "cítrico",
       "liquid": "#c9893a",
       "image": "https://picsum.photos/seed/aluxab-ajmal-amber-wood/600/600",
       "notes": {
@@ -213,7 +213,7 @@
       "tagline": "masculino",
       "price": 100000,
       "decantPrice": 9000,
-      "family": "Cítrico",
+      "family": "cítrico",
       "liquid": "#7a3b2e",
       "image": "https://picsum.photos/seed/aluxab-swiss-arabian-shaghaf-oud/600/600",
       "notes": {
@@ -271,7 +271,7 @@
       "tagline": "femenino",
       "price": 75000,
       "decantPrice": 9000,
-      "family": "Dulce",
+      "family": "Dulce empalagoso",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
@@ -325,7 +325,7 @@
       "tagline": "masculino",
       "price": 80000,
       "decantPrice": 9000,
-      "family": "Frutal",
+      "family": "fresco",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
@@ -381,7 +381,7 @@
       "tagline": "masculino",
       "price": 65000,
       "decantPrice": 8000,
-      "family": "Frutal",
+      "family": "amaderado",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
@@ -407,7 +407,7 @@
       "tagline": "masculino",
       "price": 85000,
       "decantPrice": 9000,
-      "family": "Frutal",
+      "family": "dulce",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
@@ -440,7 +440,7 @@
       "tagline": "masculino",
       "price": 105000,
       "decantPrice": 9500,
-      "family": "Frutal",
+      "family": "amaderado",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
@@ -470,7 +470,7 @@
       "tagline": "unisex",
       "price": 80000,
       "decantPrice": 9000,
-      "family": "Frutal",
+      "family": "citrico",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
@@ -528,7 +528,7 @@
       "tagline": "femenino",
       "price": 80000,
       "decantPrice": 9000,
-      "family": "Frutal",
+      "family": "dulce",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
