@@ -18,9 +18,21 @@
       "liquid": "#e0a63a",
       "image": "https://picsum.photos/seed/aluxab-lattafa-khamrah/600/600",
       "notes": {
-        "salida": ["Canela", "Nuez moscada", "Bergamota"],
-        "corazon": ["Dátil", "Praliné", "Jazmín"],
-        "fondo": ["Vainilla", "Tonka", "café arábico"]
+        "salida": [
+          "Canela",
+          "Nuez moscada",
+          "Bergamota"
+        ],
+        "corazon": [
+          "Dátil",
+          "Praliné",
+          "Jazmín"
+        ],
+        "fondo": [
+          "Vainilla",
+          "Tonka",
+          "Café arábico"
+        ]
       }
     },
     {
@@ -31,13 +43,25 @@
       "tagline": "masculino",
       "price": 90000,
       "decantPrice": 9000,
-      "family": "Amaderado especiada",
+      "family": "Amaderado especiado",
       "liquid": "#c9a86a",
       "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-intense-man/600/600",
       "notes": {
-        "salida": ["Limón", "Bergamota", "Piña"],
-        "corazon": ["Abedul", "Jazmín", "Rosa"],
-        "fondo": ["Almizcle", "Vainilla", "Ámbar"]
+        "salida": [
+          "Limón",
+          "Bergamota",
+          "Piña"
+        ],
+        "corazon": [
+          "Abedul",
+          "Jazmín",
+          "Rosa"
+        ],
+        "fondo": [
+          "Almizcle",
+          "Vainilla",
+          "Ámbar"
+        ]
       }
     },
     {
@@ -48,30 +72,52 @@
       "tagline": "masculino",
       "price": 95000,
       "decantPrice": 9000,
-      "family": "dulce especiado",
+      "family": "Dulce especiado",
       "liquid": "#5a2d20",
       "image": "https://picsum.photos/seed/aluxab-lattafa-oud-mood/600/600",
       "notes": {
-        "salida": ["lavanda", "ciruela mirabel", "pimienta rosa"],
-        "corazon": ["cacao", "nuez moscada"],
-        "fondo": ["vainilla Bourbon", "ambar", "vetiver"]
+        "salida": [
+          "Lavanda",
+          "Ciruela mirabel",
+          "Pimienta rosa"
+        ],
+        "corazon": [
+          "Cacao",
+          "Nuez moscada"
+        ],
+        "fondo": [
+          "Vainilla Bourbon",
+          "Ámbar",
+          "Vetiver"
+        ]
       }
     },
     {
       "id": "al-haramain-gold-edition",
       "brand": "Al Haramain",
       "name": "Gold Edition",
-      "badge": "dulce",
+      "badge": "Dulce",
       "tagline": "unisex",
       "price": 120000,
       "decantPrice": 10000,
-      "family": "dulce avainillado",
+      "family": "Dulce avainillado",
       "liquid": "#8b5a2b",
       "image": "https://picsum.photos/seed/aluxab-rasasi-la-yuqawam/600/600",
       "notes": {
-        "salida": ["bergamota", "notas verdes"],
-        "corazon": ["melón", "piña", "ambar"],
-        "fondo": ["almizcle", "vainilla", "notas amaderadas"]
+        "salida": [
+          "Bergamota",
+          "Notas verdes"
+        ],
+        "corazon": [
+          "Melón",
+          "Piña",
+          "Ámbar"
+        ],
+        "fondo": [
+          "Almizcle",
+          "Vainilla",
+          "Notas amaderadas"
+        ]
       }
     },
     {
@@ -86,9 +132,21 @@
       "liquid": "#a8c5a0",
       "image": "https://picsum.photos/seed/aluxab-al-haramain-laventure/600/600",
       "notes": {
-        "salida": ["Bergamota", "azafrán", "elemí"],
-        "corazon": ["madera de oud", "rosa de bulgaria", "lirio de los valles"],
-        "fondo": ["haba tonka", "Ámbar", "almizcle blanco"]
+        "salida": [
+          "Bergamota",
+          "Azafrán",
+          "Elemí"
+        ],
+        "corazon": [
+          "Madera de oud",
+          "Rosa de Bulgaria",
+          "Lirio de los valles"
+        ],
+        "fondo": [
+          "Haba tonka",
+          "Ámbar",
+          "Almizcle blanco"
+        ]
       }
     },
     {
@@ -103,9 +161,19 @@
       "liquid": "#d98a9e",
       "image": "https://picsum.photos/seed/aluxab-lattafa-yara/600/600",
       "notes": {
-        "salida": ["Orquídea", "Cardamomo"],
-        "corazon": ["Jazmín", "Tuberosa"],
-        "fondo": ["Vainilla", "Sándalo", "Almizcle"]
+        "salida": [
+          "Orquídea",
+          "Cardamomo"
+        ],
+        "corazon": [
+          "Jazmín",
+          "Tuberosa"
+        ],
+        "fondo": [
+          "Vainilla",
+          "Sándalo",
+          "Almizcle"
+        ]
       }
     },
     {
@@ -120,9 +188,21 @@
       "liquid": "#c9893a",
       "image": "https://picsum.photos/seed/aluxab-ajmal-amber-wood/600/600",
       "notes": {
-        "salida": ["mandarina", "naranja", "azafrán y salvia"],
-        "corazon": ["Caramelo haba tonka y cempasúchil"],
-        "fondo": ["Ambroxan cedro y vetiver"]
+        "salida": [
+          "Mandarina",
+          "Naranja",
+          "Azafrán y salvia"
+        ],
+        "corazon": [
+          "Caramelo",
+          "Haba tonka",
+          "Cempasúchil"
+        ],
+        "fondo": [
+          "Ambroxan",
+          "Cedro",
+          "Vetiver"
+        ]
       }
     },
     {
@@ -133,13 +213,22 @@
       "tagline": "masculino",
       "price": 100000,
       "decantPrice": 9000,
-      "family": "cítrico",
+      "family": "Cítrico",
       "liquid": "#7a3b2e",
       "image": "https://picsum.photos/seed/aluxab-swiss-arabian-shaghaf-oud/600/600",
       "notes": {
-        "salida": ["Mandarina limón y bergamota"],
-        "corazon": ["Madera de cedro"],
-        "fondo": ["Sándalo y ámbar"]
+        "salida": [
+          "Mandarina",
+          "Limón",
+          "Bergamota"
+        ],
+        "corazon": [
+          "Madera de cedro"
+        ],
+        "fondo": [
+          "Sándalo",
+          "Ámbar"
+        ]
       }
     },
     {
@@ -150,13 +239,28 @@
       "tagline": "unisex",
       "price": 75000,
       "decantPrice": 9000,
-      "family": "dulce",
+      "family": "Dulce",
       "liquid": "#6b3a2a",
       "image": "https://picsum.photos/seed/aluxab-al-rehab-choco-musk/600/600",
       "notes": {
-        "salida": ["Especias pimiento morrón y mandarina"],
-        "corazon": ["Incienso ládano flor de azahar del naranjo y pachulí"],
-        "fondo": ["Tabaco praliné ámbar haba tonka y benjuí"]
+        "salida": [
+          "Especias",
+          "Pimiento morrón",
+          "Mandarina"
+        ],
+        "corazon": [
+          "Incienso",
+          "Ládano",
+          "Flor de azahar del naranjo",
+          "Pachulí"
+        ],
+        "fondo": [
+          "Tabaco",
+          "Praliné",
+          "Ámbar",
+          "Haba tonka",
+          "Benjuí"
+        ]
       }
     },
     {
@@ -167,15 +271,27 @@
       "tagline": "femenino",
       "price": 75000,
       "decantPrice": 9000,
-      "family": "dulce",
+      "family": "Dulce",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-        "salida": ["Caramelo leche y azúcar"],
-        "corazon": ["Miel y flores blancas"],
-        "fondo": ["Vainilla praliné y almizcle"]
-      },
-      {
+        "salida": [
+          "Caramelo",
+          "Leche",
+          "Azúcar"
+        ],
+        "corazon": [
+          "Miel",
+          "Flores blancas"
+        ],
+        "fondo": [
+          "Vainilla",
+          "Praliné",
+          "Almizcle"
+        ]
+      }
+    },
+    {
       "id": "lattafa-narjis",
       "brand": "Lattafa",
       "name": "Narjis",
@@ -183,15 +299,25 @@
       "tagline": "unisex",
       "price": 90000,
       "decantPrice": 9000,
-      "family": "frutal",
+      "family": "Frutal",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Bergamota y pimienta rosa"],
-      "corazon": ["Iris y ámbar seco"],
-      "fondo": ["Heliotropo y pachulí"]
-      },
-      {
+        "salida": [
+          "Bergamota",
+          "Pimienta rosa"
+        ],
+        "corazon": [
+          "Iris",
+          "Ámbar seco"
+        ],
+        "fondo": [
+          "Heliotropo",
+          "Pachulí"
+        ]
+      }
+    },
+    {
       "id": "lattafa-atlas",
       "brand": "Lattafa",
       "name": "Atlas",
@@ -199,15 +325,27 @@
       "tagline": "masculino",
       "price": 80000,
       "decantPrice": 9000,
-      "family": "frutal",
+      "family": "Frutal",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Notas marinas sal y limón"],
-      "corazon": ["Davana e iris"],
-      "fondo": ["Ámbar gris musgo de roble y sándalo"]
+        "salida": [
+          "Notas marinas",
+          "Sal",
+          "Limón"
+        ],
+        "corazon": [
+          "Davana",
+          "Iris"
+        ],
+        "fondo": [
+          "Ámbar gris",
+          "Musgo de roble",
+          "Sándalo"
+        ]
+      }
     },
-      {
+    {
       "id": "lattafa-radio-vintage",
       "brand": "Lattafa",
       "name": "Vintage Radio",
@@ -215,15 +353,27 @@
       "tagline": "masculino",
       "price": 75000,
       "decantPrice": 9000,
-      "family": "frutal",
+      "family": "Frutal",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Lavanda salvia y bergamota"],
-      "corazon": ["Ciruela palo santo y pimienta negra"],
-      "fondo": ["Sándalo y madera de oud"]
+        "salida": [
+          "Lavanda",
+          "Salvia",
+          "Bergamota"
+        ],
+        "corazon": [
+          "Ciruela",
+          "Palo santo",
+          "Pimienta negra"
+        ],
+        "fondo": [
+          "Sándalo",
+          "Madera de oud"
+        ]
+      }
     },
-      {
+    {
       "id": "lattafa-hayaati-preto",
       "brand": "Lattafa",
       "name": "Hayaati Preto",
@@ -231,15 +381,25 @@
       "tagline": "masculino",
       "price": 65000,
       "decantPrice": 8000,
-      "family": "frutal",
+      "family": "Frutal",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Manzana y bergamota"],
-      "corazon": ["Canela y notas amaderadas"],
-      "fondo": ["Almizcle y vainilla"]
+        "salida": [
+          "Manzana",
+          "Bergamota"
+        ],
+        "corazon": [
+          "Canela",
+          "Notas amaderadas"
+        ],
+        "fondo": [
+          "Almizcle",
+          "Vainilla"
+        ]
+      }
     },
-      {
+    {
       "id": "lattafa-his-confession",
       "brand": "Lattafa",
       "name": "His Confession",
@@ -247,15 +407,32 @@
       "tagline": "masculino",
       "price": 85000,
       "decantPrice": 9000,
-      "family": "frutal",
+      "family": "Frutal",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Canela lavanda y mandarina"],
-      "corazon": ["Iris benjuí ciprés y Mahonial"],
-      "fondo": ["Vainilla haba tonka ámbar incienso cedro y pachulí"]
+        "salida": [
+          "Canela",
+          "Lavanda",
+          "Mandarina"
+        ],
+        "corazon": [
+          "Iris",
+          "Benjuí",
+          "Ciprés",
+          "Mahonial"
+        ],
+        "fondo": [
+          "Vainilla",
+          "Haba tonka",
+          "Ámbar",
+          "Incienso",
+          "Cedro",
+          "Pachulí"
+        ]
+      }
     },
-      {
+    {
       "id": "lattafa-khanjar",
       "brand": "Lattafa",
       "name": "Khanjar",
@@ -263,15 +440,29 @@
       "tagline": "masculino",
       "price": 105000,
       "decantPrice": 9500,
-      "family": "frutal",
+      "family": "Frutal",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Nuez moscada pimienta de Jamaica y jengibre"],
-      "corazon": ["Violeta pachulí y cachemira"],
-      "fondo": ["Cuero incienso almizcle y vetiver"]
+        "salida": [
+          "Nuez moscada",
+          "Pimienta de Jamaica",
+          "Jengibre"
+        ],
+        "corazon": [
+          "Violeta",
+          "Pachulí",
+          "Cachemira"
+        ],
+        "fondo": [
+          "Cuero",
+          "Incienso",
+          "Almizcle",
+          "Vetiver"
+        ]
+      }
     },
-      {
+    {
       "id": "lattafa-afaq",
       "brand": "Lattafa",
       "name": "Afaq",
@@ -279,15 +470,25 @@
       "tagline": "unisex",
       "price": 80000,
       "decantPrice": 9000,
-      "family": "frutal",
+      "family": "Frutal",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Pera y casis"],
-      "corazon": ["Nardos y jazmín"],
-      "fondo": ["Cachemira y sándalo"]
+        "salida": [
+          "Pera",
+          "Cassis"
+        ],
+        "corazon": [
+          "Nardos",
+          "Jazmín"
+        ],
+        "fondo": [
+          "Cachemira",
+          "Sándalo"
+        ]
+      }
     },
-      {
+    {
       "id": "lattafa-emeer",
       "brand": "Lattafa",
       "name": "Emeer",
@@ -295,15 +496,31 @@
       "tagline": "femenino",
       "price": 100000,
       "decantPrice": 9500,
-      "family": "frutal",
+      "family": "Frutal",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["Limón, bergamota, esclarea y bayas de enebro"],
-      "corazon": ["Té blanco sándalo cardamomo e incienso de olíbano"],
-      "fondo": ["Ámbar gris cedro cachemira y pachulí"]
+        "salida": [
+          "Limón",
+          "Bergamota",
+          "Esclarea",
+          "Bayas de enebro"
+        ],
+        "corazon": [
+          "Té blanco",
+          "Sándalo",
+          "Cardamomo",
+          "Incienso de olíbano"
+        ],
+        "fondo": [
+          "Ámbar gris",
+          "Cedro",
+          "Cachemira",
+          "Pachulí"
+        ]
+      }
     },
-      {
+    {
       "id": "lattafa-yara-elixir",
       "brand": "Lattafa",
       "name": "Yara Elixir",
@@ -311,13 +528,25 @@
       "tagline": "femenino",
       "price": 80000,
       "decantPrice": 9000,
-      "family": "frutal",
+      "family": "Frutal",
       "liquid": "#5c8fb0",
       "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
       "notes": {
-      "salida": ["S'mores de fresa y grosellas negras"],
-      "corazon": ["Jazmín y flor de azahar del naranjo"],
-      "fondo": [" Caramelo vainilla ámbar y almizcle"]
+        "salida": [
+          "S'mores de fresa",
+          "Grosellas negras"
+        ],
+        "corazon": [
+          "Jazmín",
+          "Flor de azahar del naranjo"
+        ],
+        "fondo": [
+          "Caramelo",
+          "Vainilla",
+          "Ámbar",
+          "Almizcle"
+        ]
+      }
     }
   ]
 }
