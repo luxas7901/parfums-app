@@ -159,7 +159,7 @@
       "decantPrice": 8000,
       "family": "Floral",
       "liquid": "#d98a9e",
-      "image": "https://picsum.photos/seed/aluxab-lattafa-yara/600/600",
+      "image": "https://perfugroupar.vtexassets.com/arquivos/ids/214337-800-auto?v=638708223397870000&width=800&height=auto&aspect=true",
       "notes": {
         "salida": [
           "Orquídea",
@@ -273,7 +273,7 @@
       "decantPrice": 8000,
       "family": "Dulce empalagoso",
       "liquid": "#5c8fb0",
-      "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+      "image": "https://acdn-us.mitiendanube.com/stores/002/348/405/products/eclaire-lattafa-perfume-arabe-femenino-4c09462541bc95401017868469966410-640-0.webp",
       "notes": {
         "salida": [
           "Caramelo",
@@ -301,7 +301,7 @@
       "decantPrice": 8500,
       "family": "Frutal",
       "liquid": "#5c8fb0",
-      "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGDYs_t_dEA2RF_xBbUz73zAnTxD2d4CWSFC8WXvJ1zcutabZJnA81iJH&s=10",
       "notes": {
         "salida": [
           "Bergamota",
@@ -327,7 +327,7 @@
       "decantPrice": 9000,
       "family": "fresco",
       "liquid": "#5c8fb0",
-      "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcrHuSnf5jWyY1A4Gzr9s-r2mFlh988_l8w_Ln3GEXHw&s=10",
       "notes": {
         "salida": [
           "Notas marinas",
@@ -355,7 +355,7 @@
       "decantPrice": 9000,
       "family": "Frutal",
       "liquid": "#5c8fb0",
-      "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBmuIx8Hc7dzA4o2K30fhGjRfrUKR7MPCgG41RAPabtg&s=10",
       "notes": {
         "salida": [
           "Lavanda",
@@ -374,16 +374,16 @@
       }
     },
     {
-      "id": "lattafa-hayaati-preto",
+      "id": "lattafa-hayaati",
       "brand": "Lattafa",
-      "name": "Hayaati Preto",
+      "name": "Hayaati",
       "badge": "",
       "tagline": "masculino",
       "price": 60000,
       "decantPrice": 7000,
       "family": "amaderado",
       "liquid": "#5c8fb0",
-      "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkvH1-OaKMA39T-mjLAJRqUZD0xPgYZ-k2OlqKBdH-ig&s=10",
       "notes": {
         "salida": [
           "Manzana",
@@ -409,7 +409,7 @@
       "decantPrice": 9000,
       "family": "dulce",
       "liquid": "#5c8fb0",
-      "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_807542-MLA92540726786_092025-O.webp",
       "notes": {
         "salida": [
           "Canela",
@@ -1409,6 +1409,23 @@
       "salida": ["Azafrán", "Nuez moscada", "Lavanda"],
       "corazon": ["Oud", "Notas amaderadas"],
       "fondo": ["Almizcle", "Ambroxan", "Pachulí"]
+    }
+  },
+     {
+    "id": "combo-verano",
+    "brand": "combo",
+    "name": "Mandarin + hawas tropical + pisa",
+    "badge": "combito para el verano",
+    "tagline": "masculino",
+    "price": 210000,
+    "decantPrice": 0,
+    "family": "citricos frescos",
+    "liquid": "#765039",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-aoud/600/600",
+    "notes": {
+      "salida": ["citrico"],
+      "corazon": ["citrico"],
+      "fondo": ["citrico"]
     }
   }
 ]
