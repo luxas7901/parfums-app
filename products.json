@@ -150,6 +150,35 @@
       }
     },
     {
+      "id": "lattafa-khalid",
+      "brand": "lattafa",
+      "name": "Khalid",
+      "badge": null,
+      "tagline": "masculino",
+      "price": 80000,
+      "decantPrice": 0,
+      "family": "Amaderado de cuero",
+      "liquid": "#c9a86a",
+      "image": "https://acdn-us.mitiendanube.com/stores/002/348/405/products/khalid-niche-emarati-lattafa-perfume-arabe-masculino-aed79c243f82b2a5df17864739575259-1024-1024.webp",
+      "notes": {
+        "salida": [
+          "cuero",
+          "ládano",
+          "azafrán"
+        ],
+        "corazon": [
+          "Abedul",
+          "aceite de cade",
+          "pachuli"
+        ],
+        "fondo": [
+          "cuero",
+          "madera oud",
+          "benjuí"
+        ]
+      }
+    },
+    {
       "id": "lattafa-yara",
       "brand": "Lattafa",
       "name": "Yara",
