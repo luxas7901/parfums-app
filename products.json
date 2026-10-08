@@ -547,6 +547,358 @@
           "Almizcle"
         ]
       }
-    }
+    },
+    {
+  "id": "rasasi-hawas-for-him",
+  "brand": "Rasasi",
+  "name": "Hawas For Him",
+  "badge": "",
+  "tagline": "masculino",
+  "price": 65000,
+  "decantPrice": 8000,
+  "family": "fresco",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Manzana",
+      "Bergamota",
+      "Limón",
+      "Canela"
+    ],
+    "corazon": [
+      "Notas acuáticas",
+      "Ciruela",
+      "Flor de azahar",
+      "Cardamomo"
+    ],
+    "fondo": [
+      "Ámbar gris",
+      "Almizcle",
+      "Pachulí",
+      "Madera flotante"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-for-her",
+  "brand": "Rasasi",
+  "name": "Hawas For Her",
+  "badge": "",
+  "tagline": "femenino",
+  "price": 65000,
+  "decantPrice": 8000,
+  "family": "dulce",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Granada",
+      "Manzana",
+      "Pomelo"
+    ],
+    "corazon": [
+      "Iris",
+      "Jazmín sambac",
+      "Cítricos"
+    ],
+    "fondo": [
+      "Praliné",
+      "Pachulí",
+      "Vetiver"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-ice",
+  "brand": "Rasasi",
+  "name": "Hawas Ice",
+  "badge": "",
+  "tagline": "masculino",
+  "price": 70000,
+  "decantPrice": 8500,
+  "family": "fresco",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Manzana",
+      "Limón italiano",
+      "Bergamota siciliana",
+      "Anís estrellado"
+    ],
+    "corazon": [
+      "Ciruela",
+      "Flor de azahar",
+      "Cardamomo"
+    ],
+    "fondo": [
+      "Almizcle",
+      "Ámbar",
+      "Madera flotante",
+      "Musgo"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-black",
+  "brand": "Rasasi",
+  "name": "Hawas Black",
+  "badge": "",
+  "tagline": "masculino",
+  "price": 80000,
+  "decantPrice": 9000,
+  "family": "amaderado",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Bergamota",
+      "Piña",
+      "Pomelo"
+    ],
+    "corazon": [
+      "Pachulí",
+      "Cedro",
+      "Jazmín"
+    ],
+    "fondo": [
+      "Musgo de roble",
+      "Maderas",
+      "Ámbar"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-kobra",
+  "brand": "Rasasi",
+  "name": "Hawas Kobra",
+  "badge": "",
+  "tagline": "masculino",
+  "price": 0,
+  "decantPrice": 0,
+  "family": "cítrico",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Jengibre",
+      "Bergamota",
+      "Mandarina"
+    ],
+    "corazon": [
+      "Té verde",
+      "Canela",
+      "Neroli"
+    ],
+    "fondo": [
+      "Almizcle",
+      "Maderas",
+      "Ámbar"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-fire",
+  "brand": "Rasasi",
+  "name": "Hawas Fire",
+  "badge": "",
+  "tagline": "masculino",
+  "price": 0,
+  "decantPrice": 0,
+  "family": "marino",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Esclarea"
+    ],
+    "corazon": [
+      "Notas marinas",
+      "Jazmín egipcio"
+    ],
+    "fondo": [
+      "Ámbar",
+      "Notas minerales",
+      "Ámbar gris"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-elixir",
+  "brand": "Rasasi",
+  "name": "Hawas Elixir",
+  "badge": "",
+  "tagline": "masculino",
+  "price": 0,
+  "decantPrice": 0,
+  "family": "gourmand",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Menta",
+      "Bergamota",
+      "Artemisa"
+    ],
+    "corazon": [
+      "Chocolate negro",
+      "Lavanda",
+      "Benjuí"
+    ],
+    "fondo": [
+      "Vainilla",
+      "Haba tonka",
+      "Almizcle blanco"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-pink",
+  "brand": "Rasasi",
+  "name": "Hawas Pink",
+  "badge": "",
+  "tagline": "femenino",
+  "price": 0,
+  "decantPrice": 0,
+  "family": "dulce",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Canela",
+      "Nuez moscada",
+      "Neroli"
+    ],
+    "corazon": [
+      "Malvavisco",
+      "Nardos",
+      "Flor de azahar"
+    ],
+    "fondo": [
+      "Algodón de azúcar",
+      "Vainilla",
+      "Haba tonka"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-malibu",
+  "brand": "Rasasi",
+  "name": "Hawas Malibu",
+  "badge": "",
+  "tagline": "unisex",
+  "price": 0,
+  "decantPrice": 0,
+  "family": "frutal",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Piña",
+      "Naranja",
+      "Pomelo"
+    ],
+    "corazon": [
+      "Iris",
+      "Ámbar",
+      "Lavanda"
+    ],
+    "fondo": [
+      "Haba tonka",
+      "Almizcle",
+      "Pachulí",
+      "Cashmeran"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-tropical",
+  "brand": "Rasasi",
+  "name": "Hawas Tropical",
+  "badge": "",
+  "tagline": "unisex",
+  "price": 0,
+  "decantPrice": 0,
+  "family": "tropical",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Agua de coco",
+      "Hoja de higuera",
+      "Jengibre"
+    ],
+    "corazon": [
+      "Coco",
+      "Higo",
+      "Menta"
+    ],
+    "fondo": [
+      "Sándalo",
+      "Haba tonka",
+      "Almizcle"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-london",
+  "brand": "Rasasi",
+  "name": "Hawas London",
+  "badge": "",
+  "tagline": "unisex",
+  "price": 0,
+  "decantPrice": 0,
+  "family": "ambarado",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Azafrán",
+      "Pimienta rosa",
+      "Pera"
+    ],
+    "corazon": [
+      "Rosa",
+      "Incienso",
+      "Flores blancas"
+    ],
+    "fondo": [
+      "Maderas rubias",
+      "Ámbar",
+      "Almizcle",
+      "Vainilla"
+    ]
+  }
+},
+{
+  "id": "rasasi-hawas-diva",
+  "brand": "Rasasi",
+  "name": "Hawas Diva",
+  "badge": "",
+  "tagline": "femenino",
+  "price": 0,
+  "decantPrice": 0,
+  "family": "dulce",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Frutos rojos",
+      "Ruibarbo",
+      "Lichi"
+    ],
+    "corazon": [
+      "Rosa",
+      "Incienso",
+      "Cedro"
+    ],
+    "fondo": [
+      "Vainilla",
+      "Almizcle",
+      "Ámbar gris"
+    ]
+  }
+}
   ]
 }
