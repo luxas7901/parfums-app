@@ -986,6 +986,661 @@
       "Notas amaderadas"
     ]
   }
-}
+},
+    [
+  {
+    "id": "armaf-club-de-nuit-imperiale",
+    "brand": "Armaf",
+    "name": "Club de Nuit Imperiale",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 90000,
+    "decantPrice": 9000,
+    "family": "floral",
+    "liquid": "#e5c681",
+    "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-imperiale/600/600",
+    "notes": {
+      "salida": [
+        "Lichi",
+        "Bergamota",
+        "Nuez moscada"
+      ],
+      "corazon": [
+        "Rosa turca",
+        "Vainilla",
+        "Peonía",
+        "Almizcle"
+      ],
+      "fondo": [
+        "Vainilla",
+        "Incienso",
+        "Cachemira",
+        "Cedro"
+      ]
+    }
+  },
+  {
+    "id": "armaf-club-de-nuit-precieux",
+    "brand": "Armaf",
+    "name": "Club de Nuit Precieux",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 105000,
+    "decantPrice": 9000,
+    "family": "frutal amaderado",
+    "liquid": "#b58a40",
+    "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-precieux/600/600",
+    "notes": {
+      "salida": [
+        "Piña",
+        "Bergamota",
+        "Limón",
+        "Caramelo",
+        "Pimienta rosa"
+      ],
+      "corazon": [
+        "Musgo de roble",
+        "Jazmín",
+        "Anís",
+        "Madera blanca"
+      ],
+      "fondo": [
+        "Ambroxan",
+        "Vainilla",
+        "Almizcle",
+        "Ámbar",
+        "Cedro"
+      ]
+    }
+  },
+  {
+    "id": "armaf-club-de-nuit-maleka",
+    "brand": "Armaf",
+    "name": "Club de Nuit Maleka",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 85000,
+    "decantPrice": 9000,
+    "family": "floral frutal",
+    "liquid": "#f3a5b5",
+    "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-maleka/600/600",
+    "notes": {
+      "salida": [
+        "Lichi",
+        "Bergamota",
+        "Pimienta rosa"
+      ],
+      "corazon": [
+        "Raíz de lirio"
+      ],
+      "fondo": [
+        "Praliné",
+        "Sándalo",
+        "Ambroxan"
+      ]
+    }
+  },
+  {
+    "id": "armaf-club-de-nuit-blue-iconic",
+    "brand": "Armaf",
+    "name": "Club de Nuit Blue Iconic",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 90000,
+    "decantPrice": 9000,
+    "family": "fresco cítrico",
+    "liquid": "#193b79",
+    "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-blue-iconic/600/600",
+    "notes": {
+      "salida": [
+        "Pomelo",
+        "Limón",
+        "Menta",
+        "Pimienta rosa",
+        "Cilantro"
+      ],
+      "corazon": [
+        "Jengibre",
+        "Melón",
+        "Jazmín",
+        "Nuez moscada"
+      ],
+      "fondo": [
+        "Sándalo",
+        "Ámbar",
+        "Cedro",
+        "Incienso",
+        "Pachulí"
+      ]
+    }
+  },
+  {
+    "id": "armaf-club-de-nuit-oud-parfum",
+    "brand": "Armaf",
+    "name": "Club de Nuit Oud Parfum",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 105000,
+    "decantPrice": 9000,
+    "family": "amaderado oud",
+    "liquid": "#a77835",
+    "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-oud-parfum/600/600",
+    "notes": {
+      "salida": [
+        "Durazno",
+        "Pera",
+        "Maracuyá",
+        "Piña"
+      ],
+      "corazon": [
+        "Jazmín",
+        "Fresia",
+        "Violeta"
+      ],
+      "fondo": [
+        "Oud",
+        "Almizcle",
+        "Vainilla",
+        "Ámbar"
+      ]
+    }
+  },
+  {
+    "id": "armaf-club-de-nuit-urban-man-elixir",
+    "brand": "Armaf",
+    "name": "Club de Nuit Urban Man Elixir",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 95000,
+    "decantPrice": 9000,
+    "family": "aromático especiado",
+    "liquid": "#42454c",
+    "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-urban-man-elixir/600/600",
+    "notes": {
+      "salida": [
+        "Bergamota",
+        "Pimienta rosa",
+        "Jazmín",
+        "Flor de azahar"
+      ],
+      "corazon": [
+        "Lavanda",
+        "Geranio",
+        "Vetiver",
+        "Azafrán"
+      ],
+      "fondo": [
+        "Ambroxan",
+        "Ámbar",
+        "Pachulí",
+        "Cedro"
+      ]
+    }
+  },
+  {
+    "id": "armaf-club-de-nuit-woman",
+    "brand": "Armaf",
+    "name": "Club de Nuit Woman",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 85000,
+    "decantPrice": 9000,
+    "family": "floral cítrico",
+    "liquid": "#e4bd9c",
+    "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-woman/600/600",
+    "notes": {
+      "salida": [
+        "Naranja",
+        "Pomelo",
+        "Bergamota",
+        "Durazno"
+      ],
+      "corazon": [
+        "Rosa",
+        "Jazmín",
+        "Geranio",
+        "Lichi"
+      ],
+      "fondo": [
+        "Pachulí",
+        "Vainilla",
+        "Almizcle",
+        "Vetiver"
+      ]
+    }
+  },
+  {
+    "id": "armaf-club-de-nuit-sillage",
+    "brand": "Armaf",
+    "name": "Club de Nuit Sillage",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 85000,
+    "decantPrice": 9000,
+    "family": "cítrico almizclado",
+    "liquid": "#c8d1d7",
+    "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-sillage/600/600",
+    "notes": {
+      "salida": [
+        "Bergamota",
+        "Limón",
+        "Lima",
+        "Grosellas negras",
+        "Jengibre",
+        "Hojas de violeta"
+      ],
+      "corazon": [
+        "Rosa",
+        "Jazmín",
+        "Iris"
+      ],
+      "fondo": [
+        "Almizcle",
+        "Ambroxan",
+        "Sándalo",
+        "Cedro"
+      ]
+    }
+  },
+  {
+    "id": "armaf-club-de-nuit-untold",
+    "brand": "Armaf",
+    "name": "Club de Nuit Untold",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 85000,
+    "decantPrice": 9000,
+    "family": "ámbar dulce",
+    "liquid": "#bb3b61",
+    "image": "https://picsum.photos/seed/aluxab-armaf-club-de-nuit-untold/600/600",
+    "notes": {
+      "salida": [
+        "Azafrán",
+        "Jazmín"
+      ],
+      "corazon": [
+        "Amberwood",
+        "Ámbar gris"
+      ],
+      "fondo": [
+        "Resina de abeto",
+        "Cedro"
+      ]
+    }
+  },
+  {
+    "id": "armaf-odyssey-black-forest",
+    "brand": "Armaf",
+    "name": "Odyssey Black Forest",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "gourmand",
+    "liquid": "#362a25",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-black-forest/600/600",
+    "notes": {
+      "salida": [],
+      "corazon": [],
+      "fondo": []
+    }
+  },
+  {
+    "id": "armaf-odyssey-spectra-rainbow",
+    "brand": "Armaf",
+    "name": "Odyssey Spectra Rainbow",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "dulce especiado",
+    "liquid": "#453950",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-spectra-rainbow/600/600",
+    "notes": {
+      "salida": [
+        "Canela",
+        "Manzana",
+        "Bergamota"
+      ],
+      "corazon": [
+        "Lavanda",
+        "Canela",
+        "Flor de azahar",
+        "Lirio de los valles"
+      ],
+      "fondo": [
+        "Vainilla",
+        "Ámbar",
+        "Tabaco",
+        "Haba tonka",
+        "Pachulí"
+      ]
+    }
+  },
+  {
+    "id": "armaf-odyssey-revolution-ultra",
+    "brand": "Armaf",
+    "name": "Odyssey Revolution Ultra",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "aromático",
+    "liquid": "#555b68",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-revolution-ultra/600/600",
+    "notes": {
+      "salida": [],
+      "corazon": [],
+      "fondo": []
+    }
+  },
+  {
+    "id": "armaf-odyssey-pink-pop",
+    "brand": "Armaf",
+    "name": "Odyssey Pink Pop",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 90000,
+    "decantPrice": 9000,
+    "family": "floral frutal",
+    "liquid": "#f1a5bf",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-pink-pop/600/600",
+    "notes": {
+      "salida": [
+        "Durazno",
+        "Fresa",
+        "Mandarina",
+        "Manzana",
+        "Piña",
+        "Frambuesa"
+      ],
+      "corazon": [
+        "Flor de azahar",
+        "Magnolia",
+        "Jazmín",
+        "Rosa",
+        "Coco",
+        "Ámbar"
+      ],
+      "fondo": [
+        "Almizcle",
+        "Sándalo",
+        "Ámbar",
+        "Vainilla"
+      ]
+    }
+  },
+  {
+    "id": "armaf-odyssey-mega-for-men-limited",
+    "brand": "Armaf",
+    "name": "Odyssey Mega For Men Limited",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 70000,
+    "decantPrice": 9000,
+    "family": "aromático fresco",
+    "liquid": "#667b6d",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-mega-for-men-limited/600/600",
+    "notes": {
+      "salida": [],
+      "corazon": [],
+      "fondo": []
+    }
+  },
+  {
+    "id": "armaf-odyssey-mandarin-sky-vintage-edition",
+    "brand": "Armaf",
+    "name": "Odyssey Mandarin Sky Vintage Edition",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 95000,
+    "decantPrice": 9000,
+    "family": "cítrico dulce",
+    "liquid": "#ba6827",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-mandarin-sky-vintage-edition/600/600",
+    "notes": {
+      "salida": [],
+      "corazon": [],
+      "fondo": []
+    }
+  },
+  {
+    "id": "armaf-odyssey-mandarin-sky-elixir",
+    "brand": "Armaf",
+    "name": "Odyssey Mandarin Sky Elixir",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 90000,
+    "decantPrice": 9000,
+    "family": "cítrico dulce",
+    "liquid": "#a84b22",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-mandarin-sky-elixir/600/600",
+    "notes": {
+      "salida": [],
+      "corazon": [],
+      "fondo": []
+    }
+  },
+  {
+    "id": "armaf-odyssey-limon",
+    "brand": "Armaf",
+    "name": "Odyssey Limon",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 65000,
+    "decantPrice": 9000,
+    "family": "cítrico fresco",
+    "liquid": "#d7d95b",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-limon/600/600",
+    "notes": {
+      "salida": [],
+      "corazon": [],
+      "fondo": []
+    }
+  },
+  {
+    "id": "armaf-odyssey-dubai-chocolat-gourmand-edition",
+    "brand": "Armaf",
+    "name": "Odyssey Dubai Chocolat Gourmand Edition",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 60000,
+    "decantPrice": 9000,
+    "family": "gourmand",
+    "liquid": "#60402c",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-dubai-chocolat-gourmand-edition/600/600",
+    "notes": {
+      "salida": [],
+      "corazon": [],
+      "fondo": []
+    }
+  },
+  {
+    "id": "armaf-odyssey-lichi-lush",
+    "brand": "Armaf",
+    "name": "Odyssey Lichi Lush",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 90000,
+    "decantPrice": 9000,
+    "family": "floral frutal",
+    "liquid": "#df83a0",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-lichi-lush/600/600",
+    "notes": {
+      "salida": [
+        "Lichi",
+        "Mandarina",
+        "Durazno",
+        "Frambuesa"
+      ],
+      "corazon": [
+        "Peonía",
+        "Flor de azahar",
+        "Magnolia",
+        "Jazmín",
+        "Rosa",
+        "Ylang-ylang"
+      ],
+      "fondo": [
+        "Sándalo",
+        "Almizcle",
+        "Ámbar",
+        "Vainilla",
+        "Caramelo"
+      ]
+    }
+  },
+  {
+    "id": "armaf-odyssey-homme-white-edition",
+    "brand": "Armaf",
+    "name": "Odyssey Homme White Edition",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 80000,
+    "decantPrice": 9000,
+    "family": "aromático amaderado",
+    "liquid": "#dedbd0",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-homme-white-edition/600/600",
+    "notes": {
+      "salida": [
+        "Cardamomo",
+        "Pimienta rosa",
+        "Menta"
+      ],
+      "corazon": [
+        "Salvia",
+        "Notas acuáticas",
+        "Piña"
+      ],
+      "fondo": [
+        "Amberwood",
+        "Vainilla",
+        "Cedro"
+      ]
+    }
+  },
+  {
+    "id": "armaf-odyssey-homme",
+    "brand": "Armaf",
+    "name": "Odyssey Homme",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "ámbar avainillado",
+    "liquid": "#25262c",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-homme/600/600",
+    "notes": {
+      "salida": [
+        "Cardamomo",
+        "Mandarina",
+        "Neroli"
+      ],
+      "corazon": [
+        "Flor de azahar",
+        "Rosa"
+      ],
+      "fondo": [
+        "Vainilla",
+        "Notas amaderadas",
+        "Ámbar",
+        "Sándalo"
+      ]
+    }
+  },
+  {
+    "id": "armaf-odyssey-candee-special-edition",
+    "brand": "Armaf",
+    "name": "Odyssey Candee Special Edition",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "frutal dulce",
+    "liquid": "#f0a5b0",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-candee-special-edition/600/600",
+    "notes": {
+      "salida": [
+        "Fresa",
+        "Frambuesa",
+        "Geranio",
+        "Durazno",
+        "Bergamota"
+      ],
+      "corazon": [
+        "Caramelo",
+        "Jazmín",
+        "Maracuyá"
+      ],
+      "fondo": [
+        "Pachulí",
+        "Almizcle",
+        "Ámbar"
+      ]
+    }
+  },
+  {
+    "id": "armaf-odyssey-bahamas-tropical",
+    "brand": "Armaf",
+    "name": "Odyssey Bahamas Tropical",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "tropical frutal",
+    "liquid": "#efbf49",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-bahamas-tropical/600/600",
+    "notes": {
+      "salida": [],
+      "corazon": [],
+      "fondo": []
+    }
+  },
+  {
+    "id": "armaf-odyssey-aqua-edition",
+    "brand": "Armaf",
+    "name": "Odyssey Aqua Edition",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 85000,
+    "decantPrice": 9000,
+    "family": "fresco acuático",
+    "liquid": "#4a9cba",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-aqua-edition/600/600",
+    "notes": {
+      "salida": [],
+      "corazon": [],
+      "fondo": []
+    }
+  },
+  {
+    "id": "armaf-odyssey-aoud",
+    "brand": "Armaf",
+    "name": "Odyssey Aoud",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "amaderado especiado",
+    "liquid": "#765039",
+    "image": "https://picsum.photos/seed/aluxab-armaf-odyssey-aoud/600/600",
+    "notes": {
+      "salida": [
+        "Azafrán",
+        "Nuez moscada",
+        "Lavanda"
+      ],
+      "corazon": [
+        "Oud",
+        "Notas amaderadas"
+      ],
+      "fondo": [
+        "Almizcle",
+        "Ambroxan",
+        "Pachulí"
+      ]
+    }
+  }
+]
 ]
 }
