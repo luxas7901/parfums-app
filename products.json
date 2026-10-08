@@ -1574,6 +1574,142 @@
         "Ámbar"
       ]
     }
-   } 
+   },
+    {
+    "id": "french-avenue-veneno-bianco",
+    "brand": "French Avenue",
+    "name": "Veneno Bianco",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 80000,
+    "decantPrice": 9000,
+    "family": "floral cremoso",
+    "liquid": "#f2e8cf",
+    "image": "https://hesebperfumes.com.ar/wp-content/uploads/2026/05/Veneno-Bianco-Aromatica-CR-460510710.webp",
+    "notes": {
+      "salida": ["Bergamota", "Neroli", "Leche"],
+      "corazon": ["Flor de tiaré", "Ylang-ylang", "Flores blancas"],
+      "fondo": ["Coco", "Vainilla", "Madera de guayaco", "Ládano"]
+    }
+  },
+  {
+    "id": "french-avenue-liquid-brun",
+    "brand": "French Avenue",
+    "name": "Liquid Brun",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 95000,
+    "decantPrice": 9000,
+    "family": "dulce avainillado",
+    "liquid": "#8b4a2b",
+    "image": "https://acdn-us.mitiendanube.com/stores/002/348/405/products/photoroom-20250627_090523-eff75159a0ab55f43b17510260833891-1024-1024.webp",
+    "notes": {
+      "salida": ["Canela", "Bergamota", "Cardamomo", "Flor de azahar"],
+      "corazon": ["Vainilla Bourbon", "Elemí"],
+      "fondo": ["Almizcle", "Praliné", "Ambroxan", "Madera de guayaco"]
+    }
+  },
+  {
+    "id": "french-avenue-veneno",
+    "brand": "French Avenue",
+    "name": "Veneno",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 100000,
+    "decantPrice": 9000,
+    "family": "frutal ahumado",
+    "liquid": "#8c3028",
+    "image": "https://cdn.v2.tiendanegocio.com/gallery/61139/img_61139_dpku1tzhwmnrnfu50.jpeg",
+    "notes": {
+      "salida": ["Manzana", "Humo", "Canela"],
+      "corazon": ["Tabaco", "Musgo"],
+      "fondo": ["Vainilla Bourbon", "Orcanox"]
+    }
+  },
+  {
+    "id": "french-avenue-vulcan-feu",
+    "brand": "French Avenue",
+    "name": "Vulcan Feu",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 100000,
+    "decantPrice": 9000,
+    "family": "tropical frutal",
+    "liquid": "#e89b35",
+    "image": "https://www.eliteperfumes-distribuidor.cl/cdn/shop/files/Mesadetrabajo3_04f4e265-231c-457b-9d41-04011fda90ac.png?v=1760732417&width=1214",
+    "notes": {
+      "salida": ["Jengibre", "Mango", "Limón", "Ruibarbo"],
+      "corazon": ["Jazmín", "Violeta", "Praliné", "Pimienta rosa"],
+      "fondo": ["Cedro", "Acorde de ámbar gris", "Haba tonka", "Musgo"]
+    }
+  },
+  {
+    "id": "french-avenue-vulcan-sable",
+    "brand": "French Avenue",
+    "name": "Vulcan Sable",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 85000,
+    "decantPrice": 9000,
+    "family": "amaderado especiado",
+    "liquid": "#b78b52",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/407/494/products/vulcan-sable-b2655f7705f104b4cd17651123086378-640-0.webp",
+    "notes": {
+      "salida": ["Whisky", "Semillas de cilantro", "Mandarina", "Naranja"],
+      "corazon": ["Cachemira", "Anís", "Estoraque", "Haba tonka"],
+      "fondo": ["Benjuí", "Pachulí", "Vainilla"]
+    }
+  },
+  {
+    "id": "french-avenue-spectre-ghost",
+    "brand": "French Avenue",
+    "name": "Spectre Ghost",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 90000,
+    "decantPrice": 9000,
+    "family": "ámbar especiado",
+    "liquid": "#4d4b4f",
+    "image": "https://acdn-us.mitiendanube.com/stores/006/007/543/products/diseno-sin-titulo-48-b895e96a9502a1324e17700427026226-480-0.webp",
+    "notes": {
+      "salida": ["Jengibre", "Bergamota", "Pimienta rosa", "Notas verdes"],
+      "corazon": ["Cardamomo", "Grosellas negras", "Rosa turca"],
+      "fondo": ["Vainilla", "Benjuí", "Sándalo", "Cedro", "Ámbar gris", "Pachulí", "Almizcle"]
+    }
+  },
+  {
+    "id": "french-avenue-vulcan-black-friday-extrait",
+    "brand": "French Avenue",
+    "name": "Vulcan Black Friday Extrait",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 90000,
+    "decantPrice": 9000,
+    "family": "cuero especiado",
+    "liquid": "#29262a",
+    "image": "https://nuestrasfragancias.com/wp-content/uploads/2025/12/Historia-para-Instagram-Nuevo-Sabor-Bubble-Tea-Fotografico-Blanco-2025-12-08T140727.589-937x1666.jpg",
+    "notes": {
+      "salida": ["Azafrán", "Manzana", "Canela"],
+      "corazon": ["Cuero", "Rosa"],
+      "fondo": ["Papiro", "Pachulí", "Almizcle", "Musgo"]
+    }
+  },
+  {
+    "id": "french-avenue-cocoa-morado",
+    "brand": "French Avenue",
+    "name": "Cocoa Morado",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "oriental amaderado",
+    "liquid": "#623b32",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/407/494/products/cocoa-morado-3e453ffbe07a8509ed17534824356582-1024-1024.webp",
+    "notes": {
+      "salida": ["Canela", "Azafrán", "Cardamomo", "Jengibre", "Nuez moscada", "Pimienta rosa"],
+      "corazon": ["Dátiles", "Oud", "Incienso", "Mirra", "Davana"],
+      "fondo": ["Vainilla", "Haba tonka", "Benjuí", "Ládano", "Cuero", "Pachulí", "Mate"]
+    }
+  }
 ]
 }
