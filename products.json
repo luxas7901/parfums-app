@@ -1710,6 +1710,295 @@
       "corazon": ["Dátiles", "Oud", "Incienso", "Mirra", "Davana"],
       "fondo": ["Vainilla", "Haba tonka", "Benjuí", "Ládano", "Cuero", "Pachulí", "Mate"]
     }
+  },
+     {
+    "id": "afnan-9am-dive",
+    "brand": "Afnan",
+    "name": "9AM Dive",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "fresco acuático",
+    "liquid": "#4db8e4",
+    "image": "https://picsum.photos/seed/aluxab-afnan-9am-dive/600/600",
+    "notes": {
+      "salida": ["Limón", "Menta", "Grosellas negras", "Pimienta rosa"],
+      "corazon": ["Manzana", "Incienso", "Cedro"],
+      "fondo": ["Jengibre", "Sándalo", "Pachulí", "Jazmín"]
+    }
+  },
+  {
+    "id": "afnan-9am-pour-femme-pink",
+    "brand": "Afnan",
+    "name": "9AM Pour Femme Pink",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "floral frutal",
+    "liquid": "#f6b4c6",
+    "image": "https://picsum.photos/seed/aluxab-afnan-9am-pink/600/600",
+    "notes": {
+      "salida": ["Mandarina", "Frambuesa", "Bergamota"],
+      "corazon": ["Rosa", "Peonía", "Jazmín"],
+      "fondo": ["Vainilla", "Almizcle", "Ámbar"]
+    }
+  },
+  {
+    "id": "afnan-9am-white",
+    "brand": "Afnan",
+    "name": "9AM White",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "cítrico aromático",
+    "liquid": "#e8e6e6",
+    "image": "https://picsum.photos/seed/aluxab-afnan-9am-white/600/600",
+    "notes": {
+      "salida": ["Bergamota", "Limón", "Lavanda", "Mandarina"],
+      "corazon": ["Flor de azahar", "Cardamomo", "Geranio"],
+      "fondo": ["Haba tonka", "Ámbar", "Almizcle blanco"]
+    }
+  },
+  {
+    "id": "afnan-9pm",
+    "brand": "Afnan",
+    "name": "9PM",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "dulce especiado",
+    "liquid": "#2f3a7a",
+    "image": "https://picsum.photos/seed/aluxab-afnan-9pm/600/600",
+    "notes": {
+      "salida": ["Manzana", "Canela", "Lavanda", "Bergamota"],
+      "corazon": ["Flor de azahar del naranjo", "Lirio de los valles"],
+      "fondo": ["Vainilla", "Haba tonka", "Ámbar", "Pachulí"]
+    }
+  },
+  {
+    "id": "afnan-9pm-elixir",
+    "brand": "Afnan",
+    "name": "9PM Elixir Parfum",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "ámbar especiado",
+    "liquid": "#8b275a",
+    "image": "https://picsum.photos/seed/aluxab-afnan-9pm-elixir/600/600",
+    "notes": {
+      "salida": ["Cardamomo", "Nuez moscada", "Elemí"],
+      "corazon": ["Lavanda", "Cuero", "Pimiento morrón"],
+      "fondo": ["Vainilla", "Pachulí", "Ládano", "Cistus"]
+    }
+  },
+  {
+    "id": "afnan-9pm-night-out",
+    "brand": "Afnan",
+    "name": "9PM Night Out",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "dulce amaderado",
+    "liquid": "#292d43",
+    "image": "https://picsum.photos/seed/aluxab-afnan-9pm-night-out/600/600",
+    "notes": {
+      "salida": ["Bergamota", "Manzana", "Pimienta"],
+      "corazon": ["Lavanda", "Canela", "Notas amaderadas"],
+      "fondo": ["Vainilla", "Ámbar", "Almizcle"]
+    }
+  },
+  {
+    "id": "afnan-9pm-pour-femme-purple",
+    "brand": "Afnan",
+    "name": "9PM Pour Femme Purple",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "floral frutal",
+    "liquid": "#8a6db6",
+    "image": "https://picsum.photos/seed/aluxab-afnan-9pm-purple/600/600",
+    "notes": {
+      "salida": ["Frambuesa", "Pera", "Bergamota"],
+      "corazon": ["Rosa", "Jazmín", "Violeta"],
+      "fondo": ["Vainilla", "Praliné", "Almizcle"]
+    }
+  },
+  {
+    "id": "afnan-9pm-rebel",
+    "brand": "Afnan",
+    "name": "9PM Rebel",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "frutal amaderado",
+    "liquid": "#3a3f45",
+    "image": "https://picsum.photos/seed/aluxab-afnan-9pm-rebel/600/600",
+    "notes": {
+      "salida": ["Piña", "Manzana Granny Smith", "Mandarina"],
+      "corazon": ["Musgo de roble", "Cedro", "Vainilla"],
+      "fondo": ["Caramelo", "Amberwood", "Almizcle", "Ámbar gris"]
+    }
+  },
+  {
+    "id": "afnan-historic-doria",
+    "brand": "Afnan",
+    "name": "Historic Doria",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "floral aromático",
+    "liquid": "#c4c28a",
+    "image": "https://picsum.photos/seed/aluxab-afnan-historic-doria/600/600",
+    "notes": {
+      "salida": ["Flor de azahar del naranjo", "Ralladura de limón", "Frambuesa"],
+      "corazon": ["Nardos", "Mandarina", "Ambroxan", "Jazmín"],
+      "fondo": ["Almizcle", "Notas amaderadas", "Jazmín sambac"]
+    }
+  },
+  {
+    "id": "afnan-historic-olmeda",
+    "brand": "Afnan",
+    "name": "Historic Olmeda",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "cítrico especiado",
+    "liquid": "#6c7a85",
+    "image": "https://picsum.photos/seed/aluxab-afnan-historic-olmeda/600/600",
+    "notes": {
+      "salida": ["Pomelo", "Pimienta rosa", "Enebro", "Cardamomo"],
+      "corazon": ["Bergamota", "Cedro", "Nuez moscada", "Jazmín"],
+      "fondo": ["Pachulí", "Ámbar gris", "Almizcle", "Manzana"]
+    }
+  },
+  {
+    "id": "afnan-historic-sahara",
+    "brand": "Afnan",
+    "name": "Historic Sahara",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "ámbar especiado",
+    "liquid": "#b88952",
+    "image": "https://picsum.photos/seed/aluxab-afnan-historic-sahara/600/600",
+    "notes": {
+      "salida": ["Azafrán", "Canela", "Bergamota"],
+      "corazon": ["Rosa", "Ámbar", "Notas amaderadas"],
+      "fondo": ["Vainilla", "Oud", "Almizcle", "Pachulí"]
+    }
+  },
+  {
+    "id": "afnan-supremacy-collectors-edition",
+    "brand": "Afnan",
+    "name": "Supremacy Collectors Edition",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "frutal amaderado",
+    "liquid": "#415a78",
+    "image": "https://picsum.photos/seed/aluxab-afnan-supremacy-collectors/600/600",
+    "notes": {
+      "salida": ["Piña", "Bergamota", "Manzana", "Flores blancas"],
+      "corazon": ["Flor de azahar", "Abedul", "Ámbar"],
+      "fondo": ["Musgo de roble", "Almizcle", "Ámbar gris"]
+    }
+  },
+  {
+    "id": "afnan-supremacy-silver",
+    "brand": "Afnan",
+    "name": "Supremacy Silver",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "frutal amaderado",
+    "liquid": "#c8d0d5",
+    "image": "https://picsum.photos/seed/aluxab-afnan-supremacy-silver/600/600",
+    "notes": {
+      "salida": ["Piña", "Grosellas negras", "Bergamota", "Manzana"],
+      "corazon": ["Abedul", "Pachulí", "Rosa", "Jazmín"],
+      "fondo": ["Almizcle", "Musgo de roble", "Ámbar gris", "Vainilla"]
+    }
+  },
+  {
+    "id": "afnan-supremacy-purple-fem",
+    "brand": "Afnan",
+    "name": "Supremacy Purple Fem",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "floral frutal",
+    "liquid": "#8b3e85",
+    "image": "https://picsum.photos/seed/aluxab-afnan-supremacy-purple/600/600",
+    "notes": {
+      "salida": ["Frutas", "Cítricos"],
+      "corazon": ["Notas florales", "Ámbar"],
+      "fondo": ["Almizcle", "Vainilla", "Musgo"]
+    }
+  },
+  {
+    "id": "afnan-turathi-brown",
+    "brand": "Afnan",
+    "name": "Turathi Brown",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "ámbar especiado",
+    "liquid": "#8b6a49",
+    "image": "https://picsum.photos/seed/aluxab-afnan-turathi-brown/600/600",
+    "notes": {
+      "salida": ["Ámbar", "Pachulí", "Notas amaderadas"],
+      "corazon": ["Vainilla", "Especias cálidas"],
+      "fondo": ["Almizcle", "Rosa", "Notas balsámicas"]
+    }
+  },
+  {
+    "id": "afnan-turathi-electric",
+    "brand": "Afnan",
+    "name": "Turathi Electric",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "frutal fresco",
+    "liquid": "#59b8db",
+    "image": "https://picsum.photos/seed/aluxab-afnan-turathi-electric/600/600",
+    "notes": {
+      "salida": ["Pera", "Mandarina", "Bergamota", "Pomelo"],
+      "corazon": ["Manzana", "Flor de azahar", "Cedro"],
+      "fondo": ["Almizcle", "Ámbar", "Vainilla"]
+    }
+  },
+  {
+    "id": "afnan-turathi-red",
+    "brand": "Afnan",
+    "name": "Turathi Red",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 0,
+    "decantPrice": 0,
+    "family": "floral almizclado",
+    "liquid": "#a63b4c",
+    "image": "https://picsum.photos/seed/aluxab-afnan-turathi-red/600/600",
+    "notes": {
+      "salida": ["Rosa", "Notas florales"],
+      "corazon": ["Almizcle", "Jazmín", "Notas amaderadas"],
+      "fondo": ["Ámbar", "Pachulí", "Almizcle"]
+    }
   }
 ]
 }
