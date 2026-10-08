@@ -1427,6 +1427,153 @@
       "corazon": ["citrico"],
       "fondo": ["citrico"]
     }
-  }
+  },
+    {
+    "id": "al-haramain-amber-oud-aqua-dubai",
+    "brand": "Al Haramain",
+    "name": "Amber Oud Aqua Dubai",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 110000,
+    "decantPrice": 9000,
+    "family": "fresco frutal",
+    "liquid": "#6ac6d4",
+    "image": "https://picsum.photos/seed/aluxab-alharamain-aqua-dubai/600/600",
+    "notes": {
+      "salida": [
+        "Bergamota",
+        "Notas verdes",
+        "Mandarina"
+      ],
+      "corazon": [
+        "Melón",
+        "Piña",
+        "Ámbar",
+        "Grosellas negras"
+      ],
+      "fondo": [
+        "Almizcle",
+        "Vainilla",
+        "Gálbano",
+        "Petitgrain"
+      ]
+    }
+  },
+  {
+    "id": "al-haramain-amber-oud-ruby-edition",
+    "brand": "Al Haramain",
+    "name": "Amber Oud Ruby Edition",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 120000,
+    "decantPrice": 9000,
+    "family": "ámbar amaderado",
+    "liquid": "#aa243e",
+    "image": "https://picsum.photos/seed/aluxab-alharamain-ruby/600/600",
+    "notes": {
+      "salida": [
+        "Almendra amarga",
+        "Azafrán"
+      ],
+      "corazon": [
+        "Jazmín egipcio",
+        "Cedro"
+      ],
+      "fondo": [
+        "Ámbar gris",
+        "Notas amaderadas",
+        "Almizcle"
+      ]
+    }
+  },
+  {
+    "id": "al-haramain-amber-oud-ultra-violet",
+    "brand": "Al Haramain",
+    "name": "Amber Oud Ultra Violet",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 110000,
+    "decantPrice": 9000,
+    "family": "floral amaderado",
+    "liquid": "#a36ab5",
+    "image": "https://picsum.photos/seed/aluxab-alharamain-ultra-violet/600/600",
+    "notes": {
+      "salida": [
+        "Rosa",
+        "Bergamota",
+        "Jengibre"
+      ],
+      "corazon": [
+        "Jazmín",
+        "Flores blancas",
+        "Nardo"
+      ],
+      "fondo": [
+        "Almizcle",
+        "Pachulí",
+        "Roble"
+      ]
+    }
+  },
+  {
+    "id": "al-haramain-amber-oud-private-edition",
+    "brand": "Al Haramain",
+    "name": "Amber Oud Private Edition",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 100000,
+    "decantPrice": 9000,
+    "family": "dulce amaderado",
+    "liquid": "#c6a25b",
+    "image": "https://picsum.photos/seed/aluxab-alharamain-private/600/600",
+    "notes": {
+      "salida": [
+        "Bergamota",
+        "Notas verdes"
+      ],
+      "corazon": [
+        "Melón",
+        "Notas dulces",
+        "Piña",
+        "Ámbar"
+      ],
+      "fondo": [
+        "Almizcle",
+        "Vainilla",
+        "Notas amaderadas",
+        "Resina de mirra"
+      ]
+    }
+  },
+  {
+    "id": "al-haramain-amber-oud-carbon-edition",
+    "brand": "Al Haramain",
+    "name": "Amber Oud Carbon Edition",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 100000,
+    "decantPrice": 9000,
+    "family": "fresco aromático",
+    "liquid": "#344d50",
+    "image": "https://picsum.photos/seed/aluxab-alharamain-carbon/600/600",
+    "notes": {
+      "salida": [
+        "Bergamota",
+        "Lavanda",
+        "Romero"
+      ],
+      "corazon": [
+        "Geranio",
+        "Salvia",
+        "Notas marinas"
+      ],
+      "fondo": [
+        "Musgo",
+        "Cedro",
+        "Vetiver",
+        "Ámbar"
+      ]
+    }
+   } 
 ]
 }
