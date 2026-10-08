@@ -2227,6 +2227,176 @@
       "corazon": ["Almizcle", "Jazmín", "Notas amaderadas"],
       "fondo": ["Ámbar", "Pachulí", "Almizcle"]
     }
+  },
+    {
+    "id": "maison-alhambra-philos-pura",
+    "brand": "Maison Alhambra",
+    "name": "Philos Pura EDP",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 70000,
+    "decantPrice": 9000,
+    "family": "cítrico frutal",
+    "liquid": "#d4af67",
+    "image": "https://picsum.photos/seed/aluxab-maison-philos-pura/600/600",
+    "notes": {
+      "salida": ["Naranja", "Limón", "Bergamota"],
+      "corazon": ["Frutas mediterráneas"],
+      "fondo": ["Almizcle blanco", "Ámbar", "Vainilla"]
+    }
+  },
+  {
+    "id": "maison-alhambra-glacier-bella",
+    "brand": "Maison Alhambra",
+    "name": "Glacier Bella EDP",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 65000,
+    "decantPrice": 9000,
+    "family": "floral dulce",
+    "liquid": "#e6b2b8",
+    "image": "https://picsum.photos/seed/aluxab-maison-glacier-bella/600/600",
+    "notes": {
+      "salida": ["Pera"],
+      "corazon": ["Bergamota", "Jazmín"],
+      "fondo": ["Vainilla", "Almizcle", "Ámbar"]
+    }
+  },
+  {
+    "id": "maison-alhambra-jean-lowe-azure",
+    "brand": "Maison Alhambra",
+    "name": "Jean Lowe Azure",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "cítrico acuático",
+    "liquid": "#58b9d4",
+    "image": "https://picsum.photos/seed/aluxab-maison-jean-lowe-azure/600/600",
+    "notes": {
+      "salida": ["Mandarina", "Bergamota"],
+      "corazon": ["Naranja"],
+      "fondo": ["Jengibre", "Ámbar gris"]
+    }
+  },
+  {
+    "id": "maison-alhambra-jean-lowe-immortel",
+    "brand": "Maison Alhambra",
+    "name": "Jean Lowe Immortel",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "cítrico amaderado",
+    "liquid": "#c6a45a",
+    "image": "https://picsum.photos/seed/aluxab-maison-jean-lowe-immortel/600/600",
+    "notes": {
+      "salida": ["Pomelo", "Jengibre", "Bergamota"],
+      "corazon": ["Romero", "Salvia", "Geranio", "Notas acuáticas"],
+      "fondo": ["Ambroxan", "Ámbar", "Ládano"]
+    }
+  },
+  {
+    "id": "maison-alhambra-jean-lowe-matiere",
+    "brand": "Maison Alhambra",
+    "name": "Jean Lowe Matiere",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 70000,
+    "decantPrice": 9000,
+    "family": "floral amaderado",
+    "liquid": "#b67b55",
+    "image": "https://picsum.photos/seed/aluxab-maison-jean-lowe-matiere/600/600",
+    "notes": {
+      "salida": ["Rosa", "Grosellas negras"],
+      "corazon": ["Rosa", "Jazmín"],
+      "fondo": ["Pachulí", "Incienso", "Benjuí"]
+    }
+  },
+  {
+    "id": "maison-alhambra-jean-lowe-vibe",
+    "brand": "Maison Alhambra",
+    "name": "Jean Lowe Vibe",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "cítrico aromático",
+    "liquid": "#a6c5a0",
+    "image": "https://picsum.photos/seed/aluxab-maison-jean-lowe-vibe/600/600",
+    "notes": {
+      "salida": ["Cidra", "Naranja", "Menta", "Limón", "Grosellas negras"],
+      "corazon": ["Albahaca", "Semillas de zanahoria", "Cilantro", "Chabacano", "Rosa"],
+      "fondo": ["Higo", "Dátiles", "Ambreta"]
+    }
+  },
+  {
+    "id": "maison-alhambra-salvo-intense",
+    "brand": "Maison Alhambra",
+    "name": "Salvo Intense",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 70000,
+    "decantPrice": 9000,
+    "family": "aromático especiado",
+    "liquid": "#263b58",
+    "image": "https://picsum.photos/seed/aluxab-maison-salvo-intense/600/600",
+    "notes": {
+      "salida": ["Bergamota", "Pimienta"],
+      "corazon": ["Lavanda", "Pimienta de Sichuan", "Anís estrellado", "Nuez moscada"],
+      "fondo": ["Ambroxan", "Vainilla", "Ámbar"]
+    }
+  },
+  {
+    "id": "maison-alhambra-salvo",
+    "brand": "Maison Alhambra",
+    "name": "Salvo",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "fresco aromático",
+    "liquid": "#344b6e",
+    "image": "https://picsum.photos/seed/aluxab-maison-salvo/600/600",
+    "notes": {
+      "salida": ["Bergamota", "Pimienta"],
+      "corazon": ["Lavanda", "Geranio", "Pimienta rosa", "Vetiver"],
+      "fondo": ["Ambroxan", "Cedro", "Ládano"]
+    }
+  },
+  {
+    "id": "maison-alhambra-salvo-elixir",
+    "brand": "Maison Alhambra",
+    "name": "Salvo Elixir",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 70000,
+    "decantPrice": 9000,
+    "family": "amaderado especiado",
+    "liquid": "#282e46",
+    "image": "https://picsum.photos/seed/aluxab-maison-salvo-elixir/600/600",
+    "notes": {
+      "salida": ["Canela", "Nuez moscada", "Cardamomo", "Pomelo"],
+      "corazon": ["Lavanda"],
+      "fondo": ["Regaliz", "Sándalo", "Ámbar", "Pachulí", "Vetiver"]
+    }
+  },
+  {
+    "id": "maison-alhambra-glacier-bold",
+    "brand": "Maison Alhambra",
+    "name": "Glacier Bold",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 65000,
+    "decantPrice": 9000,
+    "family": "dulce tropical",
+    "liquid": "#7b8eaa",
+    "image": "https://picsum.photos/seed/aluxab-maison-glacier-bold/600/600",
+    "notes": {
+      "salida": ["Menta", "Lavanda", "Bergamota"],
+      "corazon": ["Vainilla", "Benjuí"],
+      "fondo": ["Miel", "Haba tonka", "Tabaco"]
+    }
   }
 ]
 }
