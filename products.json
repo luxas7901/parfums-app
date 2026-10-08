@@ -675,8 +675,8 @@
   "name": "Hawas Kobra",
   "badge": "",
   "tagline": "masculino",
-  "price": 0,
-  "decantPrice": 0,
+  "price": 80000,
+  "decantPrice": 8500,
   "family": "cítrico",
   "liquid": "#5c8fb0",
   "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
@@ -704,8 +704,8 @@
   "name": "Hawas Fire",
   "badge": "",
   "tagline": "masculino",
-  "price": 0,
-  "decantPrice": 0,
+  "price": 80000,
+  "decantPrice": 8500,
   "family": "marino",
   "liquid": "#5c8fb0",
   "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
@@ -730,8 +730,8 @@
   "name": "Hawas Elixir",
   "badge": "",
   "tagline": "masculino",
-  "price": 0,
-  "decantPrice": 0,
+  "price": 70000,
+  "decantPrice": 8000,
   "family": "gourmand",
   "liquid": "#5c8fb0",
   "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
@@ -759,8 +759,8 @@
   "name": "Hawas Pink",
   "badge": "",
   "tagline": "femenino",
-  "price": 0,
-  "decantPrice": 0,
+  "price": 80000,
+  "decantPrice": 8500,
   "family": "dulce",
   "liquid": "#5c8fb0",
   "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
@@ -788,8 +788,8 @@
   "name": "Hawas Malibu",
   "badge": "",
   "tagline": "unisex",
-  "price": 0,
-  "decantPrice": 0,
+  "price": 75000,
+  "decantPrice": 7500,
   "family": "frutal",
   "liquid": "#5c8fb0",
   "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
@@ -818,8 +818,8 @@
   "name": "Hawas Tropical",
   "badge": "",
   "tagline": "unisex",
-  "price": 0,
-  "decantPrice": 0,
+  "price": 72000,
+  "decantPrice": 8000,
   "family": "tropical",
   "liquid": "#5c8fb0",
   "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
@@ -847,8 +847,8 @@
   "name": "Hawas London",
   "badge": "",
   "tagline": "unisex",
-  "price": 0,
-  "decantPrice": 0,
+  "price": 80000,
+  "decantPrice": 8500,
   "family": "ambarado",
   "liquid": "#5c8fb0",
   "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
@@ -877,8 +877,8 @@
   "name": "Hawas Diva",
   "badge": "",
   "tagline": "femenino",
-  "price": 0,
-  "decantPrice": 0,
+  "price": 82000,
+  "decantPrice": 8500,
   "family": "dulce",
   "liquid": "#5c8fb0",
   "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
@@ -899,6 +899,123 @@
       "Ámbar gris"
     ]
   }
-}
+},
+    {
+  "id": "rasasi-hawas-atlantis",
+  "brand": "Rasasi",
+  "name": "Hawas Atlantis",
+  "badge": "",
+  "tagline": "masculino",
+  "price": 85000,
+  "decantPrice": 8500,
+  "family": "ambarado",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "notes": {
+    "salida": [
+      "Azafrán",
+      "Pimienta rosa",
+      "Pera"
+    ],
+    "corazon": [
+      "Rosa",
+      "Incienso",
+      "Flores blancas"
+    ],
+    "fondo": [
+      "Maderas rubias",
+      "Ámbar",
+      "Almizcle",
+      "Vainilla"
+    ]
+  }
+},
+    {
+  "id": "rasasi-hawas-atlantis",
+  "brand": "Rasasi",
+  "name": "Hawas Atlantis",
+  "badge": "",
+  "tagline": "masculino",
+  "price": 85000,
+  "decantPrice": 8500,
+  "family": "acuático",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas-atlantis/600/600",
+  "notes": {
+    "salida": [
+      "Bergamota",
+      "Limón",
+      "Manzana",
+      "Canela"
+    ],
+    "corazon": [
+      "Notas acuáticas",
+      "Ciruela",
+      "Flor de azahar",
+      "Cardamomo"
+    ],
+    "fondo": [
+      "Madera flotante",
+      "Ámbar gris",
+      "Pachulí",
+      "Almizcle"
+    ]
+  }
+},
+    {
+  "id": "rasasi-hawas-verde",
+  "brand": "Rasasi",
+  "name": "Hawas Verde",
+  "badge": "",
+  "tagline": "masculino",
+  "price": 85000,
+  "decantPrice": 8500,
+  "family": "verde",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas-verde/600/600",
+  "notes": {
+    "salida": [
+      "Lima",
+      "Manzana verde"
+    ],
+    "corazon": [
+      "Romero"
+    ],
+    "fondo": [
+      "Pachulí",
+      "Ámbar"
+    ]
+  }
+},
+    {
+  "id": "rasasi-hawas-eclat",
+  "brand": "Rasasi",
+  "name": "Hawas Éclat",
+  "badge": "",
+  "tagline": "femenino",
+  "price": 75000,
+  "decantPrice": 8000,
+  "family": "floral",
+  "liquid": "#5c8fb0",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas-eclat/600/600",
+  "notes": {
+    "salida": [
+      "Lichi",
+      "Pera",
+      "Bergamota",
+      "Pistacho"
+    ],
+    "corazon": [
+      "Rosa",
+      "Incienso"
+    ],
+    "fondo": [
+      "Vainilla",
+      "Almizcle",
+      "Ámbar",
+      "Notas amaderadas"
+    ]
+  }
+},
   ]
 }
