@@ -260,6 +260,205 @@
         ]
       }
     },
+     {
+    "id": "lattafa-angham",
+    "brand": "Lattafa",
+    "name": "Angham",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 70000,
+    "decantPrice": 9000,
+    "family": "dulce avainillado",
+    "liquid": "#e4b47a",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-angham/600/600",
+    "notes": {
+      "salida": ["Mandarina", "Jengibre", "Pimienta rosa"],
+      "corazon": ["Lavanda", "Praliné", "Cacao", "Jazmín"],
+      "fondo": ["Vainilla", "Ámbar", "Almizcle"]
+    }
+  },
+  {
+    "id": "lattafa-nebras",
+    "brand": "Lattafa",
+    "name": "Nebras",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 80000,
+    "decantPrice": 9000,
+    "family": "dulce gourmand",
+    "liquid": "#e8b3a6",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-nebras/600/600",
+    "notes": {
+      "salida": ["Frutos rojos", "Mandarina"],
+      "corazon": ["Vainilla", "Cacao", "Rosa"],
+      "fondo": ["Haba tonka", "Ámbar", "Almizcle", "Azúcar"]
+    }
+  },
+  {
+    "id": "lattafa-qimmah-for-women",
+    "brand": "Lattafa",
+    "name": "Qimmah For Women",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 65000,
+    "decantPrice": 9000,
+    "family": "floral dulce",
+    "liquid": "#c8a26e",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-qimmah-women/600/600",
+    "notes": {
+      "salida": ["Almendra", "Café"],
+      "corazon": ["Jazmín", "Nardos", "Haba tonka"],
+      "fondo": ["Vainilla", "Cacao", "Sándalo"]
+    }
+  },
+  {
+    "id": "lattafa-sublime",
+    "brand": "Lattafa",
+    "name": "Badee Al Oud Sublime",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 70000,
+    "decantPrice": 9000,
+    "family": "floral frutal",
+    "liquid": "#f7c4d3",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-sublime/600/600",
+    "notes": {
+      "salida": ["Manzana", "Lichi", "Rosa"],
+      "corazon": ["Ciruela", "Jazmín"],
+      "fondo": ["Vainilla", "Musgo", "Pachulí"]
+    }
+  },
+  {
+    "id": "lattafa-badee-al-oud-honor-glory",
+    "brand": "Lattafa",
+    "name": "Badee Al Oud Honor & Glory",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 70000,
+    "decantPrice": 9000,
+    "family": "dulce especiado",
+    "liquid": "#9b7d5a",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-honor-glory/600/600",
+    "notes": {
+      "salida": ["Piña", "Crema brûlée"],
+      "corazon": ["Canela", "Benjuí", "Cúrcuma", "Pimienta negra"],
+      "fondo": ["Vainilla", "Sándalo", "Cachemira", "Musgo"]
+    }
+  },
+  {
+    "id": "lattafa-victoria",
+    "brand": "Lattafa",
+    "name": "Victoria",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 75000,
+    "decantPrice": 9000,
+    "family": "floral gourmand",
+    "liquid": "#f5d6e4",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-victoria/600/600",
+    "notes": {
+      "salida": ["Tarta de merengue de limón"],
+      "corazon": ["Neroli"],
+      "fondo": ["Vainilla"]
+    }
+  },
+  {
+    "id": "lattafa-yara-tous",
+    "brand": "Lattafa",
+    "name": "Yara Tous",
+    "badge": "",
+    "tagline": "femenino",
+    "price": 65000,
+    "decantPrice": 9000,
+    "family": "tropical frutal",
+    "liquid": "#f3c24b",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-yara-tous/600/600",
+    "notes": {
+      "salida": ["Mango", "Coco", "Maracuyá"],
+      "corazon": ["Jazmín", "Heliotropo", "Flor de azahar"],
+      "fondo": ["Vainilla", "Almizcle", "Cachemira"]
+    }
+  },
+  {
+    "id": "lattafa-badee-al-oud-amethyst",
+    "brand": "Lattafa",
+    "name": "Badee Al Oud Amethyst",
+    "badge": "",
+    "tagline": "unisex",
+    "price": 65000,
+    "decantPrice": 9000,
+    "family": "floral amaderado",
+    "liquid": "#7a4a8b",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-amethyst/600/600",
+    "notes": {
+      "salida": ["Pimienta rosa", "Bergamota"],
+      "corazon": ["Rosa turca", "Rosa de Bulgaria", "Jazmín"],
+      "fondo": ["Madera de oud", "Ámbar", "Vainilla"]
+    }
+  },
+    {
+  "id": "lattafa-pride-art-of-universe",
+  "brand": "Lattafa",
+  "name": "Pride Art of Universe",
+  "badge": "",
+  "tagline": "unisex",
+  "price": 90000,
+  "decantPrice": 9000,
+  "family": "cítrico aromático",
+  "liquid": "#4a90c3",
+  "image": "https://picsum.photos/seed/aluxab-lattafa-art-of-universe/600/600",
+  "notes": {
+    "salida": [
+      "Mandarina",
+      "Bergamota",
+      "Jengibre",
+      "Menta"
+    ],
+    "corazon": [
+      "Pera",
+      "Flor de azahar del naranjo"
+    ],
+    "fondo": [
+      "Almizcle",
+      "Ámbar",
+      "Cedro"
+    ]
+  }
+},
+  {
+    "id": "lattafa-qaed-al-fursan",
+    "brand": "Lattafa",
+    "name": "Qaed Al Fursan",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 60000,
+    "decantPrice": 9000,
+    "family": "dulce frutal",
+    "liquid": "#f2d653",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-qaed-fursan/600/600",
+    "notes": {
+      "salida": ["Piña", "Azafrán"],
+      "corazon": ["Jazmín", "Abeto balsámico"],
+      "fondo": ["Ámbar", "Cedro", "Madera de oud"]
+    }
+  },
+  {
+    "id": "lattafa-qaed-al-fursan-untamed",
+    "brand": "Lattafa",
+    "name": "Qaed Al Fursan Untamed",
+    "badge": "",
+    "tagline": "masculino",
+    "price": 57000,
+    "decantPrice": 9000,
+    "family": "amaderado especiado",
+    "liquid": "#4a6b2f",
+    "image": "https://picsum.photos/seed/aluxab-lattafa-qaed-untamed/600/600",
+    "notes": {
+      "salida": ["Canela", "Mandarina", "Nuez moscada", "Cardamomo"],
+      "corazon": ["Caramelo", "Lavanda", "Geranio", "Esclarea", "Ciprés"],
+      "fondo": ["Ámbar", "Cedro", "Ládano", "Vetiver", "Pachulí"]
+    }
+  }
     {
       "id": "lattafa-khamrah-dukhan",
       "brand": "Lattafa",
