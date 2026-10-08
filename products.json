@@ -900,7 +900,7 @@
     ]
   }
 },
-    {
+{
   "id": "rasasi-hawas-atlantis",
   "brand": "Rasasi",
   "name": "Hawas Atlantis",
@@ -908,29 +908,31 @@
   "tagline": "masculino",
   "price": 85000,
   "decantPrice": 8500,
-  "family": "ambarado",
+  "family": "acuático",
   "liquid": "#5c8fb0",
-  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas/600/600",
+  "image": "https://picsum.photos/seed/aluxab-rasasi-hawas-atlantis/600/600",
   "notes": {
     "salida": [
-      "Azafrán",
-      "Pimienta rosa",
-      "Pera"
+      "Bergamota",
+      "Limón",
+      "Manzana",
+      "Canela"
     ],
     "corazon": [
-      "Rosa",
-      "Incienso",
-      "Flores blancas"
+      "Notas acuáticas",
+      "Ciruela",
+      "Flor de azahar",
+      "Cardamomo"
     ],
     "fondo": [
-      "Maderas rubias",
-      "Ámbar",
-      "Almizcle",
-      "Vainilla"
+      "Madera flotante",
+      "Ámbar gris",
+      "Pachulí",
+      "Almizcle"
     ]
   }
 },
-    {
+{
   "id": "rasasi-hawas-verde",
   "brand": "Rasasi",
   "name": "Hawas Verde",
@@ -955,7 +957,7 @@
     ]
   }
 },
-    {
+{
   "id": "rasasi-hawas-eclat",
   "brand": "Rasasi",
   "name": "Hawas Éclat",
@@ -985,5 +987,5 @@
     ]
   }
 }
-  ]
+]
 }
