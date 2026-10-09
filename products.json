@@ -583,7 +583,7 @@
       "decantPrice": 9000,
       "family": "Frutal",
       "liquid": "#5c8fb0",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBmuIx8Hc7dzA4o2K30fhGjRfrUKR7MPCgG41RAPabtg&s=10",
+      "image": "https://acdn-us.mitiendanube.com/stores/003/226/824/products/1024-x-1024-px-68-37b715d192cea7444c17464011232414-1024-1024.webp",
       "notes": {
         "salida": [
           "Lavanda",
@@ -611,7 +611,7 @@
       "decantPrice": 7000,
       "family": "amaderado",
       "liquid": "#5c8fb0",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkvH1-OaKMA39T-mjLAJRqUZD0xPgYZ-k2OlqKBdH-ig&s=10",
+      "image": "https://acdn-us.mitiendanube.com/stores/002/348/405/products/hayaati-lattafa-perfume-arabe-masculino-f8e1c4e898201570ae17861933015105-640-0.webp",
       "notes": {
         "salida": [
           "Manzana",
@@ -700,7 +700,7 @@
       "decantPrice": 9000,
       "family": "citrico",
       "liquid": "#5c8fb0",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_773342-CBT82272041771_022025-O.webp",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq15_0GzvGOZbiR-xTN7Guen0s0oMep_pu1Fw19XGQW8WAUuvbrMhh5H_j&s=10",
       "notes": {
         "salida": [
           "Pera",
@@ -786,7 +786,7 @@
   "decantPrice": 8000,
   "family": "fresco",
   "liquid": "#5c8fb0",
-  "image": "https://http2.mlstatic.com/D_NQ_NP_939263-MLA103865931019_012026-O.webp",
+  "image": "https://acdn-us.mitiendanube.com/stores/002/348/405/products/photoroom-20260330_205552-bc57c8ca0d4b0aa0b317754771051425-1024-1024.webp",
   "notes": {
     "salida": [
       "Manzana",
@@ -962,7 +962,7 @@
   "decantPrice": 8000,
   "family": "gourmand",
   "liquid": "#5c8fb0",
-  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrNKw8ozIHjs8VkHQIo9pvbp6ETlcviB11Oh5Ahs5sPQ&s=10",
+  "image": "https://acdn-us.mitiendanube.com/stores/002/348/405/products/photoroom-20260330_213452-98aaef8d93ed59d32f17753045006081-1024-1024.webp",
   "notes": {
     "salida": [
       "Menta",
@@ -1945,11 +1945,11 @@
     "name": "9AM Dive",
     "badge": "",
     "tagline": "masculino",
-    "price": 0,
-    "decantPrice": 0,
+    "price": 75000,
+    "decantPrice": 8000,
     "family": "fresco acuático",
     "liquid": "#4db8e4",
-    "image": "https://picsum.photos/seed/aluxab-afnan-9am-dive/600/600",
+    "image": "https://acdn-us.mitiendanube.com/stores/005/781/045/products/sin-titulo-78-07b232e6fdea3fa31c17427851332281-1024-1024.webp",
     "notes": {
       "salida": ["Limón", "Menta", "Grosellas negras", "Pimienta rosa"],
       "corazon": ["Manzana", "Incienso", "Cedro"],
@@ -1962,11 +1962,11 @@
     "name": "9AM Pour Femme Pink",
     "badge": "",
     "tagline": "femenino",
-    "price": 0,
-    "decantPrice": 0,
+    "price": 75000,
+    "decantPrice": 8000,
     "family": "floral frutal",
     "liquid": "#f6b4c6",
-    "image": "https://picsum.photos/seed/aluxab-afnan-9am-pink/600/600",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/456/291/products/2-2f5a996176bb5fd5e517885708445571-1024-1024.webp",
     "notes": {
       "salida": ["Mandarina", "Frambuesa", "Bergamota"],
       "corazon": ["Rosa", "Peonía", "Jazmín"],
@@ -1979,11 +1979,11 @@
     "name": "9AM White",
     "badge": "",
     "tagline": "masculino",
-    "price": 0,
-    "decantPrice": 0,
+    "price": 75000,
+    "decantPrice": 8000,
     "family": "cítrico aromático",
     "liquid": "#e8e6e6",
-    "image": "https://picsum.photos/seed/aluxab-afnan-9am-white/600/600",
+    "image": "https://elbalconar.vtexassets.com/arquivos/ids/428792-1200-auto?v=639057415216200000&width=1200&height=auto&aspect=true",
     "notes": {
       "salida": ["Bergamota", "Limón", "Lavanda", "Mandarina"],
       "corazon": ["Flor de azahar", "Cardamomo", "Geranio"],
@@ -1996,11 +1996,11 @@
     "name": "9PM",
     "badge": "",
     "tagline": "masculino",
-    "price": 0,
+    "price": 70000,
     "decantPrice": 0,
     "family": "dulce especiado",
     "liquid": "#2f3a7a",
-    "image": "https://picsum.photos/seed/aluxab-afnan-9pm/600/600",
+    "image": "https://acdn-us.mitiendanube.com/stores/002/348/405/products/9pm-afnan-perfume-arabe-masculino-dulce-2d7737d0e9c4cf940a17865446149309-1024-1024.webp",
     "notes": {
       "salida": ["Manzana", "Canela", "Lavanda", "Bergamota"],
       "corazon": ["Flor de azahar del naranjo", "Lirio de los valles"],
@@ -2013,11 +2013,11 @@
     "name": "9PM Elixir Parfum",
     "badge": "",
     "tagline": "masculino",
-    "price": 0,
-    "decantPrice": 0,
+    "price": 82000,
+    "decantPrice": 8500,
     "family": "ámbar especiado",
     "liquid": "#8b275a",
-    "image": "https://picsum.photos/seed/aluxab-afnan-9pm-elixir/600/600",
+    "image": "https://acdn-us.mitiendanube.com/stores/002/348/405/products/perfume-arabe-afnan-9pm-elixir-caja-y-frasco-dfe724f4381643e01317754967365832-1024-1024.webp",
     "notes": {
       "salida": ["Cardamomo", "Nuez moscada", "Elemí"],
       "corazon": ["Lavanda", "Cuero", "Pimiento morrón"],
@@ -2030,11 +2030,11 @@
     "name": "9PM Night Out",
     "badge": "",
     "tagline": "masculino",
-    "price": 0,
-    "decantPrice": 0,
+    "price": 95000,
+    "decantPrice": 9000,
     "family": "dulce amaderado",
     "liquid": "#292d43",
-    "image": "https://picsum.photos/seed/aluxab-afnan-9pm-night-out/600/600",
+    "image": "https://acdn-us.mitiendanube.com/stores/005/386/160/products/74-fabd69a4e9e9dcfc6d17770622605911-1024-1024.webp",
     "notes": {
       "salida": ["Bergamota", "Manzana", "Pimienta"],
       "corazon": ["Lavanda", "Canela", "Notas amaderadas"],
@@ -2051,7 +2051,7 @@
     "decantPrice": 0,
     "family": "floral frutal",
     "liquid": "#8a6db6",
-    "image": "https://picsum.photos/seed/aluxab-afnan-9pm-purple/600/600",
+    "image": "https://esteticmakeup.com/wp-content/uploads/2026/08/Afnan-9pm-Pour-femme.jpg",
     "notes": {
       "salida": ["Frambuesa", "Pera", "Bergamota"],
       "corazon": ["Rosa", "Jazmín", "Violeta"],
@@ -2064,11 +2064,11 @@
     "name": "9PM Rebel",
     "badge": "",
     "tagline": "masculino",
-    "price": 0,
-    "decantPrice": 0,
+    "price": 93000,
+    "decantPrice": 9000,
     "family": "frutal amaderado",
     "liquid": "#3a3f45",
-    "image": "https://picsum.photos/seed/aluxab-afnan-9pm-rebel/600/600",
+    "image": "https://esteticmakeup.com/wp-content/uploads/2026/08/Afnan-9pm-Pour-femme.jpg",
     "notes": {
       "salida": ["Piña", "Manzana Granny Smith", "Mandarina"],
       "corazon": ["Musgo de roble", "Cedro", "Vainilla"],
